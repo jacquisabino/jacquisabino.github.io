@@ -2,7 +2,7 @@
     display: grid;
     grid-template-areas:
       "header header header"
-      "menu content secondmenu"
+      "sidenav content secondmenu"
       "footer footer footer";
     grid-template-columns: 1fr 4fr 1fr;
     grid-template-rows: 2fr 6fr 1fr;
