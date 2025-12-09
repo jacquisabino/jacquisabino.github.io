@@ -16,22 +16,20 @@
   }
   .container div.header {
     grid-area: header;
-    height: 160px;
     text-align: center;
-    font-family: Castoro Titling;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   .container div.menu {
     grid-area: menu;
   }
   .container div.content {
     grid-area: content;
-    font-family: Inter;
+    font-family: 'Inter';
     
   }
   .container div.footer {
     grid-area: footer;
     text-align: center;  
-    height: 160px;
   }
 
   h3 {
