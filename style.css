@@ -23,7 +23,6 @@
   }
   .container div.sidenav {
     grid-area: sidenav;
-    height: 100vh;
     background-color: #FFDFF4;
   }
 
