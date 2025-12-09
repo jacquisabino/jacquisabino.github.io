@@ -16,6 +16,7 @@
   }
   .container div.header {
     grid-area: header;
+    height: 160px;
     text-align: center;
     font-family: Castoro Titling;
   }
@@ -25,8 +26,14 @@
   .container div.content {
     grid-area: content;
     font-family: Inter;
+    
   }
   .container div.footer {
     grid-area: footer;
     text-align: center;  
+    height: 160px;
+  }
+
+  h3 {
+    text-align: center;
   }
