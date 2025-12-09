@@ -5,7 +5,7 @@
       "sidenav content secondmenu"
       "footer footer footer";
     grid-template-columns: 1fr 4fr 1fr;
-    grid-template-rows: 2fr 6fr 1fr;
+    grid-template-rows: 2fr 8fr 1fr;
     height: 100vh;
     gap: 3px;
     background-color: black;
@@ -26,6 +26,13 @@
     background-color: #FFDFF4;
   }
 
+  .container div.sidenav a{
+    text-decoration: none;
+    font-size: 36px;
+    color: black;
+    
+  }
+
   .container div.secondmenu {
     grid-area: secondmenu;
   }
@@ -38,7 +45,7 @@
   }
   .container div.footer {
     grid-area: footer;
-    text-align: center;  
+    text-align: left;  
   }
 
   h3 {
