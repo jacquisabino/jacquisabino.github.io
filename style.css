@@ -1,11 +1,11 @@
 .container {
     display: grid;
     grid-template-areas:
-      "header header"
-      "menu content"
-      "footer footer";
-    grid-template-columns: 1fr 4fr;
-    grid-template-rows: 1fr 4fr 1fr;
+      "header header header"
+      "menu content secondmenu"
+      "footer footer footer";
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: 2fr 6fr 1fr;
     height: 100vh;
     gap: 3px;
     background-color: black;
@@ -19,13 +19,21 @@
     grid-area: header;
     text-align: center;
     font-family: 'Playfair Display', 'Arial Narrow', Arial, sans-serif;
+    background-color: #FDF2F9;
   }
   .container div.menu {
     grid-area: menu;
+    background-color: #FFDFF4;
   }
+
+  .container div.secondmenu {
+    grid-area: secondmenu;
+  }
+
   .container div.content {
     grid-area: content;
     font-family: 'Inter';
+    background-color: #D8D8E9;
     
   }
   .container div.footer {
@@ -35,4 +43,5 @@
 
   h3 {
     text-align: center;
+    font-family: 'Playfair Display';
   }
