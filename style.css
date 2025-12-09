@@ -21,8 +21,9 @@
     font-family: 'Playfair Display', 'Arial Narrow', Arial, sans-serif;
     background-color: #FDF2F9;
   }
-  .container div.menu {
-    grid-area: menu;
+  .container div.sidenav {
+    grid-area: sidenav;
+    height: 100vh;
     background-color: #FFDFF4;
   }
 
