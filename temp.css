@@ -52,6 +52,12 @@
     text-align: left;
   }
 
+  button {
+    background-color: #FDF2F9;
+    font-size: 24px;
+    border: none;
+  }
+
   button:hover {
-    background-color: #f1f1f1;
+    text-decoration-color: #f1f1f1;
   }
