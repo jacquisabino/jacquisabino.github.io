@@ -1,6 +1,6 @@
 
 function displayEducation(){
-    window.location.href = "#education";
+    window.location.href = "education.html";
 }
 
 function displayWork(){
