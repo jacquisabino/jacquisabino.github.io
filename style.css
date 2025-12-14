@@ -3,7 +3,7 @@
     grid-template-areas:
       "header header header"
       "sidenav content secondmenu"
-      "footer footer footer";
+      "sidenav content secondmenu";
     grid-template-columns: 1fr 4fr 1fr;
     grid-template-rows: 2fr 8fr 1fr;
     height: 100vh;
@@ -45,10 +45,6 @@
     font-family: 'Inter';
     background-color: #D8D8E9;
     
-  }
-  .container div.footer {
-    grid-area: footer;
-    text-align: left;  
   }
 
   h3 {
