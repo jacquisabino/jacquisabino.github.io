@@ -14,3 +14,7 @@ function displayContact(){
 function displayProjects(){
     window.location.href = "projects.html";
 }
+
+function buttonClicked(){
+    window.location.href = "index.html";
+}
