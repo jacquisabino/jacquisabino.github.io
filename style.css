@@ -18,7 +18,7 @@
   .container div.header {
     grid-area: header;
     text-align: center;
-    font-family: 'Playfair Display';
+    font-family: 'Libre Bodoni';
     background-color: #FDF2F9;
   }
   .container div.sidenav {
