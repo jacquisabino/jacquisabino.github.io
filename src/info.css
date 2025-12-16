@@ -60,4 +60,11 @@ button {
 
 .projectOne {
   border: none;
+  width: 25%;
+  height: 25%;
+  display: inline-block;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+  border-radius: 20%;
+  padding: 10px 5px;
+  background-color: #FFEFEF;
 }
