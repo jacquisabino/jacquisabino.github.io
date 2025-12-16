@@ -18,3 +18,7 @@ function displayProjects(){
 function buttonClicked(){
     window.location.href = "index.html";
 }
+
+function openProjectOne(){
+    
+}
