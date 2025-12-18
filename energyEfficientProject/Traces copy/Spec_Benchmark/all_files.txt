@@ -1,0 +1,814 @@
+THIS IS MY FIRST LINE
+******************** L2 Associativity of 2 ********************
+---------- Processing trace file: 008.espresso.din ----------
+                               MEAN    STD DEV
+     L1 Inst Cache Hits :  807652.00     0.0000
+   L1 Inst Cache Misses :    1716.00     0.0000
+    L1 Inst Energy (mJ) :       0.15     0.0000
+     L1 Data Cache Hits :  189629.20     0.6000
+   L1 Data Cache Misses :    1002.80     0.6000
+L1 Data Cache Energy(mJ) :       0.63     0.0000
+     DRAM Accesses (ms) :     799.90     0.7000
+          L1 Cache Hits :  997281.20     0.6000
+        L1 Cache Misses :    2718.80     0.6000
+          L2 Cache Hits :    1918.90     0.9434
+        L2 Cache Misses :     799.90     0.7000
+         L1 Energy (mJ) :       0.78     0.0000
+         L2 Energy (mJ) :       0.97     0.0000
+       DRAM Energy (mJ) :       0.53     0.0001
+      Total Energy (mJ) :       2.28     0.0002
+        Total Time (ms) :       0.52     0.0000
+---------- Processing trace file: 013.spice2g6.din ----------
+                               MEAN    STD DEV
+     L1 Inst Cache Hits :  781572.00     0.0000
+   L1 Inst Cache Misses :    2607.00     0.0000
+    L1 Inst Energy (mJ) :       0.17     0.0000
+     L1 Data Cache Hits :  215030.00     0.0000
+   L1 Data Cache Misses :     793.00     0.0000
+L1 Data Cache Energy(mJ) :       0.62     0.0000
+     DRAM Accesses (ms) :     976.00     0.0000
+          L1 Cache Hits :  996602.00     0.0000
+        L1 Cache Misses :    3400.00     0.0000
+          L2 Cache Hits :    2424.00     0.0000
+        L2 Cache Misses :     976.00     0.0000
+         L1 Energy (mJ) :       0.79     0.0000
+         L2 Energy (mJ) :       1.10     0.0000
+       DRAM Energy (mJ) :       0.56     0.0000
+      Total Energy (mJ) :       2.44     0.0000
+        Total Time (ms) :       0.52     0.0000
+---------- Processing trace file: 015.doduc.din ----------
+                               MEAN    STD DEV
+     L1 Inst Cache Hits :  750939.70     2.2383
+   L1 Inst Cache Misses :    4253.30     2.2383
+    L1 Inst Energy (mJ) :       0.23     0.0001
+     L1 Data Cache Hits :  241991.00     0.0000
+   L1 Data Cache Misses :    2816.00     0.0000
+L1 Data Cache Energy(mJ) :       0.64     0.0001
+     DRAM Accesses (ms) :    2598.30     2.3259
+          L1 Cache Hits :  992930.70     2.2383
+        L1 Cache Misses :    7069.30     2.2383
+          L2 Cache Hits :    4471.00     1.0000
+        L2 Cache Misses :    2598.30     2.3259
+         L1 Energy (mJ) :       0.87     0.0001
+         L2 Energy (mJ) :       1.35     0.0001
+       DRAM Energy (mJ) :       0.85     0.0004
+      Total Energy (mJ) :       3.07     0.0006
+        Total Time (ms) :       0.59     0.0001
+---------- Processing trace file: 022.li.din ----------
+                               MEAN    STD DEV
+     L1 Inst Cache Hits :  739859.60     1.0198
+   L1 Inst Cache Misses :    2394.40     1.0198
+    L1 Inst Energy (mJ) :       0.21     0.0001
+     L1 Data Cache Hits :  252920.20     0.8718
+   L1 Data Cache Misses :    4828.80     0.8718
+L1 Data Cache Energy(mJ) :       0.60     0.0001
+     DRAM Accesses (ms) :    1363.70     6.1814
+          L1 Cache Hits :  992779.80     1.6613
+        L1 Cache Misses :    7223.20     1.6613
+          L2 Cache Hits :    5859.50     5.9708
+        L2 Cache Misses :    1363.70     6.1814
+         L1 Energy (mJ) :       0.81     0.0003
+         L2 Energy (mJ) :       1.38     0.0002
+       DRAM Energy (mJ) :       0.62     0.0011
+      Total Energy (mJ) :       2.82     0.0016
+        Total Time (ms) :       0.53     0.0003
+---------- Processing trace file: 023.eqntott.din ----------
+                               MEAN    STD DEV
+     L1 Inst Cache Hits :  769542.00     0.0000
+   L1 Inst Cache Misses :     217.00     0.0000
+    L1 Inst Energy (mJ) :       0.19     0.0000
+     L1 Data Cache Hits :  228185.00     0.0000
+   L1 Data Cache Misses :    2056.00     0.0000
+L1 Data Cache Energy(mJ) :       0.61     0.0000
+     DRAM Accesses (ms) :    1595.00     0.0000
+          L1 Cache Hits :  997727.00     0.0000
+        L1 Cache Misses :    2273.00     0.0000
+          L2 Cache Hits :     678.00     0.0000
+        L2 Cache Misses :    1595.00     0.0000
+         L1 Energy (mJ) :       0.81     0.0000
+         L2 Energy (mJ) :       1.16     0.0000
+       DRAM Energy (mJ) :       0.66     0.0000
+      Total Energy (mJ) :       2.62     0.0000
+        Total Time (ms) :       0.54     0.0000
+---------- Processing trace file: 026.compress.din ----------
+                               MEAN    STD DEV
+     L1 Inst Cache Hits :  721075.00     0.0000
+   L1 Inst Cache Misses :     141.00     0.0000
+    L1 Inst Energy (mJ) :       0.33     0.0005
+     L1 Data Cache Hits :  265914.50     0.5000
+   L1 Data Cache Misses :   12869.50     0.5000
+L1 Data Cache Energy(mJ) :       0.69     0.0005
+     DRAM Accesses (ms) :    6079.10    21.3984
+          L1 Cache Hits :  986989.50     0.5000
+        L1 Cache Misses :   13010.50     0.5000
+          L2 Cache Hits :    6931.40    21.2283
+        L2 Cache Misses :    6079.10    21.3984
+         L1 Energy (mJ) :       1.02     0.0010
+         L2 Energy (mJ) :       2.02     0.0008
+       DRAM Energy (mJ) :       1.46     0.0039
+      Total Energy (mJ) :       4.50     0.0057
+        Total Time (ms) :       0.72     0.0010
+---------- Processing trace file: 034.mdljdp2.din ----------
+                               MEAN    STD DEV
+     L1 Inst Cache Hits :  767423.00     0.0000
+   L1 Inst Cache Misses :    1120.00     0.0000
+    L1 Inst Energy (mJ) :       0.19     0.0000
+     L1 Data Cache Hits :  230020.00     0.0000
+   L1 Data Cache Misses :    1437.00     0.0000
+L1 Data Cache Energy(mJ) :       0.61     0.0000
+     DRAM Accesses (ms) :    1422.70     0.9000
+          L1 Cache Hits :  997443.00     0.0000
+        L1 Cache Misses :    2557.00     0.0000
+          L2 Cache Hits :    1134.30     0.9000
+        L2 Cache Misses :    1422.70     0.9000
+         L1 Energy (mJ) :       0.81     0.0000
+         L2 Energy (mJ) :       1.02     0.0000
+       DRAM Energy (mJ) :       0.64     0.0002
+      Total Energy (mJ) :       2.46     0.0002
+        Total Time (ms) :       0.54     0.0000
+---------- Processing trace file: 039.wave5.din ----------
+                               MEAN    STD DEV
+     L1 Inst Cache Hits :  827135.00     0.0000
+   L1 Inst Cache Misses :     465.00     0.0000
+    L1 Inst Energy (mJ) :       0.14     0.0000
+     L1 Data Cache Hits :  172031.00     0.0000
+   L1 Data Cache Misses :     369.00     0.0000
+L1 Data Cache Energy(mJ) :       0.64     0.0000
+     DRAM Accesses (ms) :     743.00     0.0000
+          L1 Cache Hits :  999166.00     0.0000
+        L1 Cache Misses :     834.00     0.0000
+          L2 Cache Hits :      91.00     0.0000
+        L2 Cache Misses :     743.00     0.0000
+         L1 Energy (mJ) :       0.77     0.0000
+         L2 Energy (mJ) :       0.85     0.0000
+       DRAM Energy (mJ) :       0.52     0.0000
+      Total Energy (mJ) :       2.14     0.0000
+        Total Time (ms) :       0.51     0.0000
+---------- Processing trace file: 047.tomcatv.din ----------
+                               MEAN    STD DEV
+     L1 Inst Cache Hits :  615454.00     0.0000
+   L1 Inst Cache Misses :      90.00     0.0000
+    L1 Inst Energy (mJ) :       0.46     0.0002
+     L1 Data Cache Hits :  374135.00     0.0000
+   L1 Data Cache Misses :   10321.00     0.0000
+L1 Data Cache Energy(mJ) :       0.66     0.0002
+     DRAM Accesses (ms) :    8697.60     7.4726
+          L1 Cache Hits :  989589.00     0.0000
+        L1 Cache Misses :   10411.00     0.0000
+          L2 Cache Hits :    1713.40     7.4726
+        L2 Cache Misses :    8697.60     7.4726
+         L1 Energy (mJ) :       1.12     0.0003
+         L2 Energy (mJ) :       1.93     0.0003
+       DRAM Energy (mJ) :       1.92     0.0013
+      Total Energy (mJ) :       4.97     0.0020
+        Total Time (ms) :       0.83     0.0003
+---------- Processing trace file: 048.ora.din ----------
+                               MEAN    STD DEV
+     L1 Inst Cache Hits :  799417.00     0.0000
+   L1 Inst Cache Misses :     354.00     0.0000
+    L1 Inst Energy (mJ) :       0.15     0.0000
+     L1 Data Cache Hits :  199999.00     0.0000
+   L1 Data Cache Misses :     232.00     0.0000
+L1 Data Cache Energy(mJ) :       0.61     0.0000
+     DRAM Accesses (ms) :     542.00     0.0000
+          L1 Cache Hits :  999416.00     0.0000
+        L1 Cache Misses :     586.00     0.0000
+          L2 Cache Hits :      44.00     0.0000
+        L2 Cache Misses :     542.00     0.0000
+         L1 Energy (mJ) :       0.76     0.0000
+         L2 Energy (mJ) :       0.93     0.0000
+       DRAM Energy (mJ) :       0.48     0.0000
+      Total Energy (mJ) :       2.17     0.0000
+        Total Time (ms) :       0.50     0.0000
+---------- Processing trace file: 085.gcc.din ----------
+                               MEAN    STD DEV
+     L1 Inst Cache Hits :  766531.00    11.8491
+   L1 Inst Cache Misses :   12984.00    11.8491
+    L1 Inst Energy (mJ) :       0.25     0.0004
+     L1 Data Cache Hits :  214977.00     1.6125
+   L1 Data Cache Misses :    5508.00     1.6125
+L1 Data Cache Energy(mJ) :       0.68     0.0004
+     DRAM Accesses (ms) :    2730.80    16.5638
+          L1 Cache Hits :  981508.00    12.3774
+        L1 Cache Misses :   18492.00    12.3774
+          L2 Cache Hits :   15761.20     6.9253
+        L2 Cache Misses :    2730.80    16.5638
+         L1 Energy (mJ) :       0.93     0.0008
+         L2 Energy (mJ) :       1.36     0.0007
+       DRAM Energy (mJ) :       0.92     0.0030
+      Total Energy (mJ) :       3.21     0.0045
+        Total Time (ms) :       0.66     0.0008
+---------- Processing trace file: 089.su2cor.din ----------
+                               MEAN    STD DEV
+     L1 Inst Cache Hits :  736683.00     0.0000
+   L1 Inst Cache Misses :     498.00     0.0000
+    L1 Inst Energy (mJ) :       0.24     0.0001
+     L1 Data Cache Hits :  259684.00     0.0000
+   L1 Data Cache Misses :    3135.00     0.0000
+L1 Data Cache Energy(mJ) :       0.62     0.0001
+     DRAM Accesses (ms) :    2929.20     4.1183
+          L1 Cache Hits :  996367.00     0.0000
+        L1 Cache Misses :    3633.00     0.0000
+          L2 Cache Hits :     703.80     4.1183
+        L2 Cache Misses :    2929.20     4.1183
+         L1 Energy (mJ) :       0.86     0.0002
+         L2 Energy (mJ) :       1.54     0.0002
+       DRAM Energy (mJ) :       0.89     0.0007
+      Total Energy (mJ) :       3.29     0.0011
+        Total Time (ms) :       0.58     0.0002
+---------- Processing trace file: 090.hydro2d.din ----------
+                               MEAN    STD DEV
+     L1 Inst Cache Hits :  747705.40     0.8000
+   L1 Inst Cache Misses :     982.60     0.8000
+    L1 Inst Energy (mJ) :       0.34     0.0007
+     L1 Data Cache Hits :  239370.20     2.1354
+   L1 Data Cache Misses :   11941.80     2.1354
+L1 Data Cache Energy(mJ) :       0.72     0.0007
+     DRAM Accesses (ms) :    6478.70    30.7313
+          L1 Cache Hits :  987075.60     2.5768
+        L1 Cache Misses :   12924.40     2.5768
+          L2 Cache Hits :    6445.70    29.5738
+        L2 Cache Misses :    6478.70    30.7313
+         L1 Energy (mJ) :       1.06     0.0014
+         L2 Energy (mJ) :       1.47     0.0011
+       DRAM Energy (mJ) :       1.56     0.0056
+      Total Energy (mJ) :       4.10     0.0081
+        Total Time (ms) :       0.78     0.0014
+---------- Processing trace file: 093.nasa7.din ----------
+                               MEAN    STD DEV
+     L1 Inst Cache Hits :  802508.00     0.0000
+   L1 Inst Cache Misses :     463.00     0.0000
+    L1 Inst Energy (mJ) :       0.20     0.0000
+     L1 Data Cache Hits :  194154.00     0.0000
+   L1 Data Cache Misses :    2875.00     0.0000
+L1 Data Cache Energy(mJ) :       0.67     0.0000
+     DRAM Accesses (ms) :    2971.00     0.0000
+          L1 Cache Hits :  996662.00     0.0000
+        L1 Cache Misses :    3338.00     0.0000
+          L2 Cache Hits :     367.00     0.0000
+        L2 Cache Misses :    2971.00     0.0000
+         L1 Energy (mJ) :       0.87     0.0000
+         L2 Energy (mJ) :       1.22     0.0000
+       DRAM Energy (mJ) :       0.91     0.0000
+      Total Energy (mJ) :       2.99     0.0000
+        Total Time (ms) :       0.60     0.0000
+---------- Processing trace file: 094.fpppp.din ----------
+                               MEAN    STD DEV
+     L1 Inst Cache Hits :  692546.50     6.1522
+   L1 Inst Cache Misses :    7953.50     6.1522
+    L1 Inst Energy (mJ) :       0.28     0.0003
+     L1 Data Cache Hits :  294117.40     2.2000
+   L1 Data Cache Misses :    5382.60     2.2000
+L1 Data Cache Energy(mJ) :       0.60     0.0003
+     DRAM Accesses (ms) :    2329.30    12.1495
+          L1 Cache Hits :  986663.90     6.1717
+        L1 Cache Misses :   13336.10     6.1717
+          L2 Cache Hits :   11006.80    10.4192
+        L2 Cache Misses :    2329.30    12.1495
+         L1 Energy (mJ) :       0.88     0.0006
+         L2 Energy (mJ) :       1.43     0.0005
+       DRAM Energy (mJ) :       0.82     0.0022
+      Total Energy (mJ) :       3.13     0.0032
+        Total Time (ms) :       0.61     0.0006
+******************** L2 Associativity of 4 ********************
+---------- Processing trace file: 008.espresso.din ----------
+                               MEAN    STD DEV
+     L1 Inst Cache Hits :  807667.00     0.0000
+   L1 Inst Cache Misses :    1701.00     0.0000
+    L1 Inst Energy (mJ) :       0.15     0.0000
+     L1 Data Cache Hits :  189630.00     0.0000
+   L1 Data Cache Misses :    1002.00     0.0000
+L1 Data Cache Energy(mJ) :       0.63     0.0000
+     DRAM Accesses (ms) :     798.00     0.0000
+          L1 Cache Hits :  997297.00     0.0000
+        L1 Cache Misses :    2703.00     0.0000
+          L2 Cache Hits :    1905.00     0.0000
+        L2 Cache Misses :     798.00     0.0000
+         L1 Energy (mJ) :       0.78     0.0000
+         L2 Energy (mJ) :       0.97     0.0000
+       DRAM Energy (mJ) :       0.53     0.0000
+      Total Energy (mJ) :       2.28     0.0000
+        Total Time (ms) :       0.52     0.0000
+---------- Processing trace file: 013.spice2g6.din ----------
+                               MEAN    STD DEV
+     L1 Inst Cache Hits :  781572.00     0.0000
+   L1 Inst Cache Misses :    2607.00     0.0000
+    L1 Inst Energy (mJ) :       0.17     0.0000
+     L1 Data Cache Hits :  215030.00     0.0000
+   L1 Data Cache Misses :     793.00     0.0000
+L1 Data Cache Energy(mJ) :       0.62     0.0000
+     DRAM Accesses (ms) :     976.00     0.0000
+          L1 Cache Hits :  996602.00     0.0000
+        L1 Cache Misses :    3400.00     0.0000
+          L2 Cache Hits :    2424.00     0.0000
+        L2 Cache Misses :     976.00     0.0000
+         L1 Energy (mJ) :       0.79     0.0000
+         L2 Energy (mJ) :       1.10     0.0000
+       DRAM Energy (mJ) :       0.56     0.0000
+      Total Energy (mJ) :       2.44     0.0000
+        Total Time (ms) :       0.52     0.0000
+---------- Processing trace file: 015.doduc.din ----------
+                               MEAN    STD DEV
+     L1 Inst Cache Hits :  750952.20     1.7205
+   L1 Inst Cache Misses :    4240.80     1.7205
+    L1 Inst Energy (mJ) :       0.23     0.0000
+     L1 Data Cache Hits :  241991.00     0.0000
+   L1 Data Cache Misses :    2816.00     0.0000
+L1 Data Cache Energy(mJ) :       0.64     0.0000
+     DRAM Accesses (ms) :    2590.00     1.5492
+          L1 Cache Hits :  992943.20     1.7205
+        L1 Cache Misses :    7056.80     1.7205
+          L2 Cache Hits :    4466.80     1.0770
+        L2 Cache Misses :    2590.00     1.5492
+         L1 Energy (mJ) :       0.87     0.0001
+         L2 Energy (mJ) :       1.35     0.0001
+       DRAM Energy (mJ) :       0.85     0.0003
+      Total Energy (mJ) :       3.06     0.0004
+        Total Time (ms) :       0.59     0.0001
+---------- Processing trace file: 022.li.din ----------
+                               MEAN    STD DEV
+     L1 Inst Cache Hits :  739872.00     0.0000
+   L1 Inst Cache Misses :    2382.00     0.0000
+    L1 Inst Energy (mJ) :       0.21     0.0000
+     L1 Data Cache Hits :  252922.00     0.0000
+   L1 Data Cache Misses :    4827.00     0.0000
+L1 Data Cache Energy(mJ) :       0.60     0.0000
+     DRAM Accesses (ms) :    1320.00     0.0000
+          L1 Cache Hits :  992794.00     0.0000
+        L1 Cache Misses :    7209.00     0.0000
+          L2 Cache Hits :    5889.00     0.0000
+        L2 Cache Misses :    1320.00     0.0000
+         L1 Energy (mJ) :       0.81     0.0000
+         L2 Energy (mJ) :       1.38     0.0000
+       DRAM Energy (mJ) :       0.62     0.0000
+      Total Energy (mJ) :       2.81     0.0000
+        Total Time (ms) :       0.53     0.0000
+---------- Processing trace file: 023.eqntott.din ----------
+                               MEAN    STD DEV
+     L1 Inst Cache Hits :  769542.00     0.0000
+   L1 Inst Cache Misses :     217.00     0.0000
+    L1 Inst Energy (mJ) :       0.19     0.0000
+     L1 Data Cache Hits :  228185.00     0.0000
+   L1 Data Cache Misses :    2056.00     0.0000
+L1 Data Cache Energy(mJ) :       0.61     0.0000
+     DRAM Accesses (ms) :    1595.00     0.0000
+          L1 Cache Hits :  997727.00     0.0000
+        L1 Cache Misses :    2273.00     0.0000
+          L2 Cache Hits :     678.00     0.0000
+        L2 Cache Misses :    1595.00     0.0000
+         L1 Energy (mJ) :       0.81     0.0000
+         L2 Energy (mJ) :       1.16     0.0000
+       DRAM Energy (mJ) :       0.66     0.0000
+      Total Energy (mJ) :       2.62     0.0000
+        Total Time (ms) :       0.54     0.0000
+---------- Processing trace file: 026.compress.din ----------
+                               MEAN    STD DEV
+     L1 Inst Cache Hits :  721075.00     0.0000
+   L1 Inst Cache Misses :     141.00     0.0000
+    L1 Inst Energy (mJ) :       0.33     0.0003
+     L1 Data Cache Hits :  265915.00     0.0000
+   L1 Data Cache Misses :   12869.00     0.0000
+L1 Data Cache Energy(mJ) :       0.69     0.0003
+     DRAM Accesses (ms) :    6100.00    12.9538
+          L1 Cache Hits :  986990.00     0.0000
+        L1 Cache Misses :   13010.00     0.0000
+          L2 Cache Hits :    6910.00    12.9538
+        L2 Cache Misses :    6100.00    12.9538
+         L1 Energy (mJ) :       1.02     0.0006
+         L2 Energy (mJ) :       2.02     0.0005
+       DRAM Energy (mJ) :       1.46     0.0023
+      Total Energy (mJ) :       4.50     0.0035
+        Total Time (ms) :       0.73     0.0006
+---------- Processing trace file: 034.mdljdp2.din ----------
+                               MEAN    STD DEV
+     L1 Inst Cache Hits :  767423.00     0.0000
+   L1 Inst Cache Misses :    1120.00     0.0000
+    L1 Inst Energy (mJ) :       0.19     0.0000
+     L1 Data Cache Hits :  230020.00     0.0000
+   L1 Data Cache Misses :    1437.00     0.0000
+L1 Data Cache Energy(mJ) :       0.61     0.0000
+     DRAM Accesses (ms) :    1421.00     0.0000
+          L1 Cache Hits :  997443.00     0.0000
+        L1 Cache Misses :    2557.00     0.0000
+          L2 Cache Hits :    1136.00     0.0000
+        L2 Cache Misses :    1421.00     0.0000
+         L1 Energy (mJ) :       0.81     0.0000
+         L2 Energy (mJ) :       1.02     0.0000
+       DRAM Energy (mJ) :       0.64     0.0000
+      Total Energy (mJ) :       2.46     0.0000
+        Total Time (ms) :       0.54     0.0000
+---------- Processing trace file: 039.wave5.din ----------
+                               MEAN    STD DEV
+     L1 Inst Cache Hits :  827135.00     0.0000
+   L1 Inst Cache Misses :     465.00     0.0000
+    L1 Inst Energy (mJ) :       0.14     0.0000
+     L1 Data Cache Hits :  172031.00     0.0000
+   L1 Data Cache Misses :     369.00     0.0000
+L1 Data Cache Energy(mJ) :       0.64     0.0000
+     DRAM Accesses (ms) :     743.00     0.0000
+          L1 Cache Hits :  999166.00     0.0000
+        L1 Cache Misses :     834.00     0.0000
+          L2 Cache Hits :      91.00     0.0000
+        L2 Cache Misses :     743.00     0.0000
+         L1 Energy (mJ) :       0.77     0.0000
+         L2 Energy (mJ) :       0.85     0.0000
+       DRAM Energy (mJ) :       0.52     0.0000
+      Total Energy (mJ) :       2.14     0.0000
+        Total Time (ms) :       0.51     0.0000
+---------- Processing trace file: 047.tomcatv.din ----------
+                               MEAN    STD DEV
+     L1 Inst Cache Hits :  615456.00     0.0000
+   L1 Inst Cache Misses :      88.00     0.0000
+    L1 Inst Energy (mJ) :       0.46     0.0001
+     L1 Data Cache Hits :  374135.00     0.0000
+   L1 Data Cache Misses :   10321.00     0.0000
+L1 Data Cache Energy(mJ) :       0.66     0.0001
+     DRAM Accesses (ms) :    8647.10     6.5490
+          L1 Cache Hits :  989591.00     0.0000
+        L1 Cache Misses :   10409.00     0.0000
+          L2 Cache Hits :    1761.90     6.5490
+        L2 Cache Misses :    8647.10     6.5490
+         L1 Energy (mJ) :       1.12     0.0003
+         L2 Energy (mJ) :       1.92     0.0003
+       DRAM Energy (mJ) :       1.91     0.0012
+      Total Energy (mJ) :       4.96     0.0017
+        Total Time (ms) :       0.83     0.0003
+---------- Processing trace file: 048.ora.din ----------
+                               MEAN    STD DEV
+     L1 Inst Cache Hits :  799417.00     0.0000
+   L1 Inst Cache Misses :     354.00     0.0000
+    L1 Inst Energy (mJ) :       0.15     0.0000
+     L1 Data Cache Hits :  199999.00     0.0000
+   L1 Data Cache Misses :     232.00     0.0000
+L1 Data Cache Energy(mJ) :       0.61     0.0000
+     DRAM Accesses (ms) :     542.00     0.0000
+          L1 Cache Hits :  999416.00     0.0000
+        L1 Cache Misses :     586.00     0.0000
+          L2 Cache Hits :      44.00     0.0000
+        L2 Cache Misses :     542.00     0.0000
+         L1 Energy (mJ) :       0.76     0.0000
+         L2 Energy (mJ) :       0.93     0.0000
+       DRAM Energy (mJ) :       0.48     0.0000
+      Total Energy (mJ) :       2.17     0.0000
+        Total Time (ms) :       0.50     0.0000
+---------- Processing trace file: 085.gcc.din ----------
+                               MEAN    STD DEV
+     L1 Inst Cache Hits :  766766.70     6.0341
+   L1 Inst Cache Misses :   12748.30     6.0341
+    L1 Inst Energy (mJ) :       0.24     0.0002
+     L1 Data Cache Hits :  214985.80     1.8868
+   L1 Data Cache Misses :    5499.20     1.8868
+L1 Data Cache Energy(mJ) :       0.68     0.0002
+     DRAM Accesses (ms) :    2501.00     8.9107
+          L1 Cache Hits :  981752.50     5.3526
+        L1 Cache Misses :   18247.50     5.3526
+          L2 Cache Hits :   15746.50     5.1624
+        L2 Cache Misses :    2501.00     8.9107
+         L1 Energy (mJ) :       0.92     0.0004
+         L2 Energy (mJ) :       1.35     0.0004
+       DRAM Energy (mJ) :       0.88     0.0016
+      Total Energy (mJ) :       3.14     0.0024
+        Total Time (ms) :       0.65     0.0004
+---------- Processing trace file: 089.su2cor.din ----------
+                               MEAN    STD DEV
+     L1 Inst Cache Hits :  736700.00     0.0000
+   L1 Inst Cache Misses :     481.00     0.0000
+    L1 Inst Energy (mJ) :       0.24     0.0000
+     L1 Data Cache Hits :  259684.00     0.0000
+   L1 Data Cache Misses :    3135.00     0.0000
+L1 Data Cache Energy(mJ) :       0.62     0.0000
+     DRAM Accesses (ms) :    2916.00     0.0000
+          L1 Cache Hits :  996384.00     0.0000
+        L1 Cache Misses :    3616.00     0.0000
+          L2 Cache Hits :     700.00     0.0000
+        L2 Cache Misses :    2916.00     0.0000
+         L1 Energy (mJ) :       0.86     0.0000
+         L2 Energy (mJ) :       1.54     0.0000
+       DRAM Energy (mJ) :       0.88     0.0000
+      Total Energy (mJ) :       3.28     0.0000
+        Total Time (ms) :       0.58     0.0000
+---------- Processing trace file: 090.hydro2d.din ----------
+                               MEAN    STD DEV
+     L1 Inst Cache Hits :  747644.20     0.6000
+   L1 Inst Cache Misses :    1043.80     0.6000
+    L1 Inst Energy (mJ) :       0.33     0.0007
+     L1 Data Cache Hits :  239374.10     1.1358
+   L1 Data Cache Misses :   11937.90     1.1358
+L1 Data Cache Energy(mJ) :       0.72     0.0007
+     DRAM Accesses (ms) :    6285.10    32.8951
+          L1 Cache Hits :  987018.30     1.1874
+        L1 Cache Misses :   12981.70     1.1874
+          L2 Cache Hits :    6696.60    32.5644
+        L2 Cache Misses :    6285.10    32.8951
+         L1 Energy (mJ) :       1.05     0.0015
+         L2 Energy (mJ) :       1.47     0.0012
+       DRAM Energy (mJ) :       1.53     0.0059
+      Total Energy (mJ) :       4.05     0.0086
+        Total Time (ms) :       0.78     0.0015
+---------- Processing trace file: 093.nasa7.din ----------
+                               MEAN    STD DEV
+     L1 Inst Cache Hits :  802508.00     0.0000
+   L1 Inst Cache Misses :     463.00     0.0000
+    L1 Inst Energy (mJ) :       0.20     0.0000
+     L1 Data Cache Hits :  194154.00     0.0000
+   L1 Data Cache Misses :    2875.00     0.0000
+L1 Data Cache Energy(mJ) :       0.67     0.0000
+     DRAM Accesses (ms) :    2971.00     0.0000
+          L1 Cache Hits :  996662.00     0.0000
+        L1 Cache Misses :    3338.00     0.0000
+          L2 Cache Hits :     367.00     0.0000
+        L2 Cache Misses :    2971.00     0.0000
+         L1 Energy (mJ) :       0.87     0.0000
+         L2 Energy (mJ) :       1.22     0.0000
+       DRAM Energy (mJ) :       0.91     0.0000
+      Total Energy (mJ) :       2.99     0.0000
+        Total Time (ms) :       0.60     0.0000
+---------- Processing trace file: 094.fpppp.din ----------
+                               MEAN    STD DEV
+     L1 Inst Cache Hits :  692720.80     1.3266
+   L1 Inst Cache Misses :    7779.20     1.3266
+    L1 Inst Energy (mJ) :       0.28     0.0000
+     L1 Data Cache Hits :  294125.00     0.0000
+   L1 Data Cache Misses :    5375.00     0.0000
+L1 Data Cache Energy(mJ) :       0.60     0.0000
+     DRAM Accesses (ms) :    2208.70     1.7349
+          L1 Cache Hits :  986845.80     1.3266
+        L1 Cache Misses :   13154.20     1.3266
+          L2 Cache Hits :   10945.50     1.3601
+        L2 Cache Misses :    2208.70     1.7349
+         L1 Energy (mJ) :       0.87     0.0001
+         L2 Energy (mJ) :       1.42     0.0001
+       DRAM Energy (mJ) :       0.80     0.0003
+      Total Energy (mJ) :       3.09     0.0005
+        Total Time (ms) :       0.60     0.0001
+******************** L2 Associativity of 8 ********************
+---------- Processing trace file: 008.espresso.din ----------
+                               MEAN    STD DEV
+     L1 Inst Cache Hits :  807667.00     0.0000
+   L1 Inst Cache Misses :    1701.00     0.0000
+    L1 Inst Energy (mJ) :       0.15     0.0000
+     L1 Data Cache Hits :  189630.00     0.0000
+   L1 Data Cache Misses :    1002.00     0.0000
+L1 Data Cache Energy(mJ) :       0.63     0.0000
+     DRAM Accesses (ms) :     798.00     0.0000
+          L1 Cache Hits :  997297.00     0.0000
+        L1 Cache Misses :    2703.00     0.0000
+          L2 Cache Hits :    1905.00     0.0000
+        L2 Cache Misses :     798.00     0.0000
+         L1 Energy (mJ) :       0.78     0.0000
+         L2 Energy (mJ) :       0.97     0.0000
+       DRAM Energy (mJ) :       0.53     0.0000
+      Total Energy (mJ) :       2.28     0.0000
+        Total Time (ms) :       0.52     0.0000
+---------- Processing trace file: 013.spice2g6.din ----------
+                               MEAN    STD DEV
+     L1 Inst Cache Hits :  781572.00     0.0000
+   L1 Inst Cache Misses :    2607.00     0.0000
+    L1 Inst Energy (mJ) :       0.17     0.0000
+     L1 Data Cache Hits :  215030.00     0.0000
+   L1 Data Cache Misses :     793.00     0.0000
+L1 Data Cache Energy(mJ) :       0.62     0.0000
+     DRAM Accesses (ms) :     976.00     0.0000
+          L1 Cache Hits :  996602.00     0.0000
+        L1 Cache Misses :    3400.00     0.0000
+          L2 Cache Hits :    2424.00     0.0000
+        L2 Cache Misses :     976.00     0.0000
+         L1 Energy (mJ) :       0.79     0.0000
+         L2 Energy (mJ) :       1.10     0.0000
+       DRAM Energy (mJ) :       0.56     0.0000
+      Total Energy (mJ) :       2.44     0.0000
+        Total Time (ms) :       0.52     0.0000
+---------- Processing trace file: 015.doduc.din ----------
+                               MEAN    STD DEV
+     L1 Inst Cache Hits :  750974.00     0.0000
+   L1 Inst Cache Misses :    4219.00     0.0000
+    L1 Inst Energy (mJ) :       0.23     0.0000
+     L1 Data Cache Hits :  241991.00     0.0000
+   L1 Data Cache Misses :    2816.00     0.0000
+L1 Data Cache Energy(mJ) :       0.64     0.0000
+     DRAM Accesses (ms) :    2578.00     0.0000
+          L1 Cache Hits :  992965.00     0.0000
+        L1 Cache Misses :    7035.00     0.0000
+          L2 Cache Hits :    4457.00     0.0000
+        L2 Cache Misses :    2578.00     0.0000
+         L1 Energy (mJ) :       0.87     0.0000
+         L2 Energy (mJ) :       1.35     0.0000
+       DRAM Energy (mJ) :       0.85     0.0000
+      Total Energy (mJ) :       3.06     0.0000
+        Total Time (ms) :       0.59     0.0000
+---------- Processing trace file: 022.li.din ----------
+                               MEAN    STD DEV
+     L1 Inst Cache Hits :  739872.00     0.0000
+   L1 Inst Cache Misses :    2382.00     0.0000
+    L1 Inst Energy (mJ) :       0.21     0.0000
+     L1 Data Cache Hits :  252922.00     0.0000
+   L1 Data Cache Misses :    4827.00     0.0000
+L1 Data Cache Energy(mJ) :       0.60     0.0000
+     DRAM Accesses (ms) :    1320.00     0.0000
+          L1 Cache Hits :  992794.00     0.0000
+        L1 Cache Misses :    7209.00     0.0000
+          L2 Cache Hits :    5889.00     0.0000
+        L2 Cache Misses :    1320.00     0.0000
+         L1 Energy (mJ) :       0.81     0.0000
+         L2 Energy (mJ) :       1.38     0.0000
+       DRAM Energy (mJ) :       0.62     0.0000
+      Total Energy (mJ) :       2.81     0.0000
+        Total Time (ms) :       0.53     0.0000
+---------- Processing trace file: 023.eqntott.din ----------
+                               MEAN    STD DEV
+     L1 Inst Cache Hits :  769542.00     0.0000
+   L1 Inst Cache Misses :     217.00     0.0000
+    L1 Inst Energy (mJ) :       0.19     0.0000
+     L1 Data Cache Hits :  228185.00     0.0000
+   L1 Data Cache Misses :    2056.00     0.0000
+L1 Data Cache Energy(mJ) :       0.61     0.0000
+     DRAM Accesses (ms) :    1595.00     0.0000
+          L1 Cache Hits :  997727.00     0.0000
+        L1 Cache Misses :    2273.00     0.0000
+          L2 Cache Hits :     678.00     0.0000
+        L2 Cache Misses :    1595.00     0.0000
+         L1 Energy (mJ) :       0.81     0.0000
+         L2 Energy (mJ) :       1.16     0.0000
+       DRAM Energy (mJ) :       0.66     0.0000
+      Total Energy (mJ) :       2.62     0.0000
+        Total Time (ms) :       0.54     0.0000
+---------- Processing trace file: 026.compress.din ----------
+                               MEAN    STD DEV
+     L1 Inst Cache Hits :  721074.80     0.4000
+   L1 Inst Cache Misses :     141.20     0.4000
+    L1 Inst Energy (mJ) :       0.33     0.0008
+     L1 Data Cache Hits :  265915.00     0.0000
+   L1 Data Cache Misses :   12869.00     0.0000
+L1 Data Cache Energy(mJ) :       0.69     0.0008
+     DRAM Accesses (ms) :    6169.80    33.4807
+          L1 Cache Hits :  986989.80     0.4000
+        L1 Cache Misses :   13010.20     0.4000
+          L2 Cache Hits :    6840.40    33.5476
+        L2 Cache Misses :    6169.80    33.4807
+         L1 Energy (mJ) :       1.02     0.0015
+         L2 Energy (mJ) :       2.02     0.0013
+       DRAM Energy (mJ) :       1.47     0.0060
+      Total Energy (mJ) :       4.52     0.0088
+        Total Time (ms) :       0.73     0.0015
+---------- Processing trace file: 034.mdljdp2.din ----------
+                               MEAN    STD DEV
+     L1 Inst Cache Hits :  767423.00     0.0000
+   L1 Inst Cache Misses :    1120.00     0.0000
+    L1 Inst Energy (mJ) :       0.19     0.0000
+     L1 Data Cache Hits :  230020.00     0.0000
+   L1 Data Cache Misses :    1437.00     0.0000
+L1 Data Cache Energy(mJ) :       0.61     0.0000
+     DRAM Accesses (ms) :    1421.00     0.0000
+          L1 Cache Hits :  997443.00     0.0000
+        L1 Cache Misses :    2557.00     0.0000
+          L2 Cache Hits :    1136.00     0.0000
+        L2 Cache Misses :    1421.00     0.0000
+         L1 Energy (mJ) :       0.81     0.0000
+         L2 Energy (mJ) :       1.02     0.0000
+       DRAM Energy (mJ) :       0.64     0.0000
+      Total Energy (mJ) :       2.46     0.0000
+        Total Time (ms) :       0.54     0.0000
+---------- Processing trace file: 039.wave5.din ----------
+                               MEAN    STD DEV
+     L1 Inst Cache Hits :  827135.00     0.0000
+   L1 Inst Cache Misses :     465.00     0.0000
+    L1 Inst Energy (mJ) :       0.14     0.0000
+     L1 Data Cache Hits :  172031.00     0.0000
+   L1 Data Cache Misses :     369.00     0.0000
+L1 Data Cache Energy(mJ) :       0.64     0.0000
+     DRAM Accesses (ms) :     743.00     0.0000
+          L1 Cache Hits :  999166.00     0.0000
+        L1 Cache Misses :     834.00     0.0000
+          L2 Cache Hits :      91.00     0.0000
+        L2 Cache Misses :     743.00     0.0000
+         L1 Energy (mJ) :       0.77     0.0000
+         L2 Energy (mJ) :       0.85     0.0000
+       DRAM Energy (mJ) :       0.52     0.0000
+      Total Energy (mJ) :       2.14     0.0000
+        Total Time (ms) :       0.51     0.0000
+---------- Processing trace file: 047.tomcatv.din ----------
+                               MEAN    STD DEV
+     L1 Inst Cache Hits :  615456.00     0.0000
+   L1 Inst Cache Misses :      88.00     0.0000
+    L1 Inst Energy (mJ) :       0.46     0.0001
+     L1 Data Cache Hits :  374135.00     0.0000
+   L1 Data Cache Misses :   10321.00     0.0000
+L1 Data Cache Energy(mJ) :       0.66     0.0001
+     DRAM Accesses (ms) :    8623.00     5.6569
+          L1 Cache Hits :  989591.00     0.0000
+        L1 Cache Misses :   10409.00     0.0000
+          L2 Cache Hits :    1786.00     5.6569
+        L2 Cache Misses :    8623.00     5.6569
+         L1 Energy (mJ) :       1.12     0.0003
+         L2 Energy (mJ) :       1.92     0.0002
+       DRAM Energy (mJ) :       1.91     0.0010
+      Total Energy (mJ) :       4.95     0.0015
+        Total Time (ms) :       0.83     0.0003
+---------- Processing trace file: 048.ora.din ----------
+                               MEAN    STD DEV
+     L1 Inst Cache Hits :  799417.00     0.0000
+   L1 Inst Cache Misses :     354.00     0.0000
+    L1 Inst Energy (mJ) :       0.15     0.0000
+     L1 Data Cache Hits :  199999.00     0.0000
+   L1 Data Cache Misses :     232.00     0.0000
+L1 Data Cache Energy(mJ) :       0.61     0.0000
+     DRAM Accesses (ms) :     542.00     0.0000
+          L1 Cache Hits :  999416.00     0.0000
+        L1 Cache Misses :     586.00     0.0000
+          L2 Cache Hits :      44.00     0.0000
+        L2 Cache Misses :     542.00     0.0000
+         L1 Energy (mJ) :       0.76     0.0000
+         L2 Energy (mJ) :       0.93     0.0000
+       DRAM Energy (mJ) :       0.48     0.0000
+      Total Energy (mJ) :       2.17     0.0000
+        Total Time (ms) :       0.50     0.0000
+---------- Processing trace file: 085.gcc.din ----------
+                               MEAN    STD DEV
+     L1 Inst Cache Hits :  766780.60     6.3906
+   L1 Inst Cache Misses :   12734.40     6.3906
+    L1 Inst Energy (mJ) :       0.24     0.0002
+     L1 Data Cache Hits :  214987.30     0.6403
+   L1 Data Cache Misses :    5497.70     0.6403
+L1 Data Cache Energy(mJ) :       0.68     0.0002
+     DRAM Accesses (ms) :    2483.80     7.6655
+          L1 Cache Hits :  981767.90     6.8184
+        L1 Cache Misses :   18232.10     6.8184
+          L2 Cache Hits :   15748.30     2.4104
+        L2 Cache Misses :    2483.80     7.6655
+         L1 Energy (mJ) :       0.92     0.0004
+         L2 Energy (mJ) :       1.35     0.0003
+       DRAM Energy (mJ) :       0.88     0.0014
+      Total Energy (mJ) :       3.14     0.0021
+        Total Time (ms) :       0.65     0.0004
+---------- Processing trace file: 089.su2cor.din ----------
+                               MEAN    STD DEV
+     L1 Inst Cache Hits :  736700.00     0.0000
+   L1 Inst Cache Misses :     481.00     0.0000
+    L1 Inst Energy (mJ) :       0.24     0.0000
+     L1 Data Cache Hits :  259684.00     0.0000
+   L1 Data Cache Misses :    3135.00     0.0000
+L1 Data Cache Energy(mJ) :       0.62     0.0000
+     DRAM Accesses (ms) :    2916.00     0.0000
+          L1 Cache Hits :  996384.00     0.0000
+        L1 Cache Misses :    3616.00     0.0000
+          L2 Cache Hits :     700.00     0.0000
+        L2 Cache Misses :    2916.00     0.0000
+         L1 Energy (mJ) :       0.86     0.0000
+         L2 Energy (mJ) :       1.54     0.0000
+       DRAM Energy (mJ) :       0.88     0.0000
+      Total Energy (mJ) :       3.28     0.0000
+        Total Time (ms) :       0.58     0.0000
+---------- Processing trace file: 090.hydro2d.din ----------
+                               MEAN    STD DEV
+     L1 Inst Cache Hits :  747641.50     1.3601
+   L1 Inst Cache Misses :    1046.50     1.3601
+    L1 Inst Energy (mJ) :       0.33     0.0004
+     L1 Data Cache Hits :  239374.00     1.8439
+   L1 Data Cache Misses :   11938.00     1.8439
+L1 Data Cache Energy(mJ) :       0.72     0.0004
+     DRAM Accesses (ms) :    6290.40    17.8112
+          L1 Cache Hits :  987015.50     2.6552
+        L1 Cache Misses :   12984.50     2.6552
+          L2 Cache Hits :    6694.10    17.7789
+        L2 Cache Misses :    6290.40    17.8112
+         L1 Energy (mJ) :       1.05     0.0008
+         L2 Energy (mJ) :       1.47     0.0007
+       DRAM Energy (mJ) :       1.53     0.0032
+      Total Energy (mJ) :       4.05     0.0047
+        Total Time (ms) :       0.78     0.0008
+---------- Processing trace file: 093.nasa7.din ----------
+                               MEAN    STD DEV
+     L1 Inst Cache Hits :  802508.00     0.0000
+   L1 Inst Cache Misses :     463.00     0.0000
+    L1 Inst Energy (mJ) :       0.20     0.0000
+     L1 Data Cache Hits :  194154.00     0.0000
+   L1 Data Cache Misses :    2875.00     0.0000
+L1 Data Cache Energy(mJ) :       0.67     0.0000
+     DRAM Accesses (ms) :    2971.00     0.0000
+          L1 Cache Hits :  996662.00     0.0000
+        L1 Cache Misses :    3338.00     0.0000
+          L2 Cache Hits :     367.00     0.0000
+        L2 Cache Misses :    2971.00     0.0000
+         L1 Energy (mJ) :       0.87     0.0000
+         L2 Energy (mJ) :       1.22     0.0000
+       DRAM Energy (mJ) :       0.91     0.0000
+      Total Energy (mJ) :       2.99     0.0000
+        Total Time (ms) :       0.60     0.0000
+---------- Processing trace file: 094.fpppp.din ----------
+                               MEAN    STD DEV
+     L1 Inst Cache Hits :  692732.00     0.0000
+   L1 Inst Cache Misses :    7768.00     0.0000
+    L1 Inst Energy (mJ) :       0.28     0.0000
+     L1 Data Cache Hits :  294125.00     0.0000
+   L1 Data Cache Misses :    5375.00     0.0000
+L1 Data Cache Energy(mJ) :       0.60     0.0000
+     DRAM Accesses (ms) :    2205.00     0.0000
+          L1 Cache Hits :  986857.00     0.0000
+        L1 Cache Misses :   13143.00     0.0000
+          L2 Cache Hits :   10938.00     0.0000
+        L2 Cache Misses :    2205.00     0.0000
+         L1 Energy (mJ) :       0.87     0.0000
+         L2 Energy (mJ) :       1.42     0.0000
+       DRAM Energy (mJ) :       0.80     0.0000
+      Total Energy (mJ) :       3.09     0.0000
+        Total Time (ms) :       0.60     0.0000
