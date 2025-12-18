@@ -20,5 +20,5 @@ function buttonClicked(){
 }
 
 function openProjectOne(){
-    
+    window.location.href = "../energyProject/README.md";
 }
