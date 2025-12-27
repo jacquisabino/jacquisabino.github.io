@@ -20,5 +20,9 @@ function buttonClicked(){
 }
 
 function openProjectOne(){
-    window.location.href = "../energyProject/README.md";
+    window.location.href = "../currentProjects/generalProjects.html";
+}
+
+function projectButtonClicked(){
+    window.location.href = "../projects.html"
 }

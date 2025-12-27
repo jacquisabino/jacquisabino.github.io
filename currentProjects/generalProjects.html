@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Current Project</title>
+        <link rel="stylesheet" href="../src/info.css">
+        <!-- <link rel="icon" type="image/x-icon" href="/images/favicon.ico"> -->
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h2>
+                    <button class="headerText" onclick="projectButtonClicked()">
+                        Cache Simulator
+                    </button>
+                </h2>
+            </div>
+           <!-- <div class="menu"><a href="#">Education</a><br><a href="#">Work</a><br><a href="#">Contact</a>
+                <br><a href="#">Coding Projects</a></div> -->
+            <!--Side nav will change to project names -->
+            <div class="sidenav">
+                <a href="#education" onclick="displayEducation()">Education</a><br>
+                <a href="#work" onclick="displayWork()">Work</a><br>
+                <a href="#contact" onclick="displayContact()">Contact</a><br>
+                <a href="#projects" onclick="displayProjects()">Coding Projects</a>
+            </div>
+            <!-- <div class="secondmenu"></div> -->
+            <div class="content">
+                <!-- read me content -->
+                <h3>CACHE SIMULATOR README</h3>
+                <h4>Overview</h4>
+                <p>
+                    This is a cache simulator meant to demonstrate how cache and 
+                    memory accesses affect the static and dynamic energy 
+                    of a computer system. In our case a simple computer system with an 
+                    L1 instruction cache, L1 data cache, L2 unified cache 
+                    and DRAM. It utilizes a combination of Python scripts and a 
+                    Bash script to run simulations and analyze the results redirected to a 
+                    text file called formatted_output.txt. 
+                </p>
+                <h4>Features</h4>
+                <ul>
+                    <li>Simulates cache memory behavior based on associativity </li>
+                    <li>Provides statistics such as cache hits, misses, energy consumption, mean, and standard deviation.</li>
+                    <li>upports many customizable cache configurations but intended for varying associativity. </li>
+                </ul>
+                <h4>Prerequisites</h4>
+                <ul>
+                    <li>Python 3.x</li>
+                    <li>Bash shell</li>
+                    <li>mean_and_std.py: Python script for calculating mean and standard deviation</li>
+                    <li>with_penalties.py: Python script to run memory traces on a simulated memory system</li>
+                </ul>
+                <h4>Usage</h4>
+                <h5>Running the Cache Simulator</h5>
+                <ol>
+                    <li>Set up the input trace files in the desired format. Each line in the trace file represents a memory access. 
+                        Trace files, run.sh, mean_and_std.py and with_penalties.py must all be in the same directory. </li>
+                    <li>Configure the cache parameters in the `run.sh` script.</li>
+                    <li> Execute the cache simulator by running the `run.sh` script:
+
+                        ```bash
+                        bash run.sh</li>
+                </ol>
+                <h5>Running a Single Trace File</h5>
+                <p>
+                    In run.sh replace the file in FILE_NAMES_TEST=("047.tomcatv.din") 
+                    with any of the dinero file names. The output to formatted.txt 
+                    will be a summary of cache hits and misses averaged over 10 
+                    iterations of that file for associativity of 2, 4 and 8. 
+                </p>
+                <h5>Customize Associativity</h5>
+                <p>
+                    Replace the values in ASSOCS=(2 4 8) with a value or values 
+                    of your choice. 
+                </p>
+            </div>
+            <!-- <div class="footer"><h4>Footer</h4></div> -->
+        </div>
+        <script src="../src/script.js"></script>
+    </body>
+</html>
