@@ -41,7 +41,7 @@
   font-family: 'Inter';
   background-color: #D8D8E9;
   height: 100%;
-  overflow-y: auto;
+  overflow-y: scroll;
 }
 
 h3 {
