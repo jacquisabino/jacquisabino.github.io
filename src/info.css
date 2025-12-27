@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair Display');
+
 .container {
   display: grid;
   grid-template-areas:
@@ -18,7 +20,7 @@
 .container div.header {
   grid-area: header;
   text-align: center;
-  font-family: 'Playfair Display', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Playfair Display';
   background-color: #FDF2F9;
 }
 .container div.sidenav {
