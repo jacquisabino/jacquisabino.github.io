@@ -40,7 +40,8 @@
   grid-area: content;
   font-family: 'Inter';
   background-color: #D8D8E9;
-  overflow: auto;
+  height: 100%;
+  overflow-y: auto;
 }
 
 h3 {
