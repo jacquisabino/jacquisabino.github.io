@@ -50,6 +50,8 @@
   .container div.content {
     grid-area: content;
     font-family: 'Inter';
+    font-weight: mixed;
+    font-size: 24px;
     background-color: #D8D8E9;
     
   }
