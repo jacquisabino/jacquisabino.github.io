@@ -23,7 +23,7 @@
     grid-area: header;
     text-align: center;
     font-family: 'Playfair Display';
-    font-style: normal;
+    font-weight: 200;
     background-color: #FDF2F9;
   }
   .container div.sidenav {
