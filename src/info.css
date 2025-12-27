@@ -7,7 +7,7 @@
   grid-template-columns: 1fr 4fr 1fr;
   grid-template-rows: 2fr 8fr 1fr;
   min-height: 100vh;
-  margin: 0;
+  
   overflow: auto;
   gap: 3px;
   background-color: black;
