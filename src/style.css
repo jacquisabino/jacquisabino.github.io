@@ -24,8 +24,6 @@
     text-align: center;
     font-family: 'Playfair Display';
     font-style: normal;
-    font-size: medium;
-
     background-color: #FDF2F9;
   }
   .container div.sidenav {
@@ -51,7 +49,6 @@
     grid-area: content;
     font-family: 'Inter';
     font-weight: mixed;
-    font-size: small;
     background-color: #D8D8E9;
     
   }
