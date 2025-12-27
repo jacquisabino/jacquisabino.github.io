@@ -13,7 +13,7 @@
 }
 .container div {
   background-color: white;
-  height: 100%;
+  height: 100%; /*added this to try and constraint content when scrolling */
   padding: 10px;
 }
 .container div.header {
@@ -42,7 +42,7 @@
   font-family: 'Inter';
   background-color: #D8D8E9;
   
-  overflow-y: scroll;
+  overflow-y: auto;
 }
 
 h3 {
