@@ -13,7 +13,6 @@
 }
 .container div {
   background-color: white;
-  height: 100%; /*added this to try and constraint content when scrolling */
   padding: 10px;
 }
 .container div.header {
