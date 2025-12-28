@@ -52,9 +52,6 @@
 
   .secondmenu div {
     box-sizing: border-box;
-    /* should be using original vh width and height */
-    /* can i use frames */
-    
     margin: 5px;
     overflow:hidden;
     position:relative;
