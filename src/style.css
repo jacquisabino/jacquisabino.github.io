@@ -46,6 +46,7 @@
 
   .container div.secondmenu {
     grid-area: secondmenu;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
   }
