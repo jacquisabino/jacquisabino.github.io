@@ -48,7 +48,6 @@
     grid-area: secondmenu;
     display: flex;
     flex-wrap: wrap;
-    overflow-y: auto;
   }
 
   .secondmenu div {
