@@ -65,14 +65,24 @@ h2 {
   border: none;
 }
 
-.content button {
+.projectOne {
   border: none;
-  width: 25%;
+  width: calc(25% - 5px);
   height: 25%;
   display: inline-block;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
   border-radius: 15%;
   padding: 10px 5px;
   background-color: #FFEFEF;
-  position: relative;
+}
+
+.projectTwo {
+  border: none;
+  width: calc(25% - 5px);
+  height: 25%;
+  display: inline-block;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+  border-radius: 15%;
+  padding: 10px 5px;
+  background-color: #FFEFEF;
 }
