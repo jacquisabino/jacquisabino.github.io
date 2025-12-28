@@ -27,8 +27,6 @@
     background-color: #FDF2F9;
   }
   .container div.sidenav {
-    height: 100%;
-    width: 100%;
     grid-area: sidenav;
     background-color: #FFDFF4;
     text-align: center;
@@ -48,8 +46,6 @@
 
   .container div.secondmenu {
     grid-area: secondmenu;
-    width: 100%;
-    height: 100%;
     display: flex;
     flex-wrap: wrap;
     overflow-y: auto;
@@ -76,8 +72,6 @@
     font-family: 'Inter';
     font-weight: mixed;
     background-color: #D8D8E9;
-    height: 100%;
-    width: 100%;
     
   }
 
