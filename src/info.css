@@ -46,8 +46,6 @@
   font-family: 'Inter';
   background-color: #D8D8E9;
   overflow-y: auto;
-  display: flex;
-  flex-wrap: wrap;
 }
 
 h3 {
@@ -76,4 +74,5 @@ h2 {
   border-radius: 15%;
   padding: 10px 5px;
   background-color: #FFEFEF;
+  position: relative;
 }
