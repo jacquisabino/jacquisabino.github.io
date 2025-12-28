@@ -55,6 +55,7 @@
   .secondmenu div {
     box-sizing: border-box;
     width: calc(75% - 5px);
+    height: calc(75% - 5px);
     margin: 5px;
     overflow:hidden;
     position:relative;
