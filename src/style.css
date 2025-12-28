@@ -23,19 +23,21 @@
     grid-area: header;
     text-align: center;
     font-family: 'Playfair Display';
-    font-weight: 200;
+    font-weight: 100;
     background-color: #FDF2F9;
   }
   .container div.sidenav {
     grid-area: sidenav;
     background-color: #FFDFF4;
+    text-align: center;
+
   }
 
   .container div.sidenav a{
     text-decoration: none;
-    text-align: center;
     font-size: 16px;
     color: black;
+    padding: 10px 5px;
   }
 
   .container div.sidenav a:hover{

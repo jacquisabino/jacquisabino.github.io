@@ -21,17 +21,20 @@
   grid-area: header;
   text-align: center;
   font-family: 'Playfair Display';
+  font-weight: 100;
   background-color: #FDF2F9;
 }
 .container div.sidenav {
   grid-area: sidenav;
   background-color: #FFDFF4;
+  text-align: center;
 }
 
 .container div.sidenav a{
   text-decoration: none;
   font-size: 16px;
   color: black;
+  padding: 10px 5px;
 }
 
 .container div.sidenav a:hover{
@@ -42,7 +45,6 @@
   grid-area: content;
   font-family: 'Inter';
   background-color: #D8D8E9;
-  
   overflow-y: auto;
 }
 
@@ -58,6 +60,8 @@ h2 {
 .headerText {
   background-color: #FDF2F9;
   font-size: 24px;
+  font-family: 'Playfair Display';
+  font-weight: 100;
   border: none;
 }
 
