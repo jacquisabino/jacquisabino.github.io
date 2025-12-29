@@ -19,11 +19,17 @@ function buttonClicked(){
     window.location.href = "index.html";
 }
 
+/* need to generalize function for opening projects  */
+
+function openProject(newTxt){
+    const oldHeader = document.getElementsByClassName("headerText");
+    oldHeader.innerHTML = newTxt;
+}
+
 function openProjectOne(){
     window.location.href = "../currentProjects/generalProjects.html";
 }
 
-/* need to heneralize function for opening projects  */
 function projectButtonClicked(){
     window.location.href = "../projects.html"
 }
