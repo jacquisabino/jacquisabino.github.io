@@ -15,9 +15,9 @@ body {
     grid-template-rows: 2fr 8fr 1fr;
     height: 100vh;
     overflow: auto;
-    gap: 3px;
+    gap: 15px;
     background-color: black;
-    padding: 5px;
+    padding: 25px;
   }
   .container div {
     background-color: white;
