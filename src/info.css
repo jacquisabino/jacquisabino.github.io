@@ -48,11 +48,9 @@
 .container div.content {
   /* we will see if it changes my project content */
   grid-area: content; 
-  display: gird; 
   font-family: 'Inter';
   background-color: #D8D8E9;
   overflow-y: auto;
-
 }
 
 h3 {
