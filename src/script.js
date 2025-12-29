@@ -21,9 +21,15 @@ function buttonClicked(){
 
 /* need to generalize function for opening projects  */
 
-function openProject(newTxt){
+function openProject(val){
     const oldHeader = document.getElementsByClassName("headerText");
-    oldHeader.innerHTML = newTxt;
+    if(val == 1){
+        oldHeader.innerHTML = "Cache Simulator";
+    } else if(val == 2){
+        oldHeader.innerHTML = "Public Works Database";
+    } else {
+        oldHeader.innerHTML = "Code Generator";
+    }
 }
 
 function openProjectOne(){
