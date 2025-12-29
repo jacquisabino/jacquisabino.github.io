@@ -47,12 +47,11 @@
 
 .container div.content {
   /* we will see if it changes my project content */
-  /* grid-area: content; */
+  grid-area: content; 
   display: gird; 
   font-family: 'Inter';
   background-color: #D8D8E9;
   overflow-y: auto;
-  grid-template-areas: "projectOne projectTwo projectThree";
 
 }
 
@@ -75,7 +74,7 @@ h2 {
 
 .projectOne {
   border: none;
-  width: calc(25% - 5px);
+  width: 200px;
   height: 25%;
   display: inline-block;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
@@ -86,7 +85,7 @@ h2 {
 
 .projectTwo {
   border: none;
-  width: calc(25% - 5px);
+  width: 200px;
   height: 25%;
   display: inline-block;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
@@ -97,7 +96,7 @@ h2 {
 
 .projectThree {
   border: none;
-  width: calc(25% - 5px);
+  width: 200px;
   height: 25%;
   display: inline-block;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
