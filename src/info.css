@@ -42,10 +42,14 @@
 }
 
 .container div.content {
-  grid-area: content;
+  /* we will see if it changes my project content */
+  /* grid-area: content; */
+  display: gird; 
   font-family: 'Inter';
   background-color: #D8D8E9;
   overflow-y: auto;
+  grid-template-areas: "projectOne projectTwo projectThree";
+
 }
 
 h3 {
