@@ -105,3 +105,24 @@ h2 {
   margin-right: 150px;
   background-color: #FFEFEF;
 }
+
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 100px auto;
+}
+
+.container div.content .container {
+  padding: 10px 50px;
+  position: relative;
+  width: 50%;
+  background-color: rgba(0,0,0,0.3);
+}
+
+.container div.content .text-box {
+  padding: 20px 30px;
+  background-color: #f1f1f1;
+  position: relative;
+  border-radius: 6px;
+  font-size: 15px;
+}
