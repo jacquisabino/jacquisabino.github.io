@@ -108,19 +108,19 @@ h2 {
 
 .timeline {
   position: relative;
-  max-width: 1200px;
+  max-width: 600px;
   margin: 100px auto;
 }
 
 .container div.content .container {
-  padding: 10px 50px;
+  padding: 5px 25px;
   position: relative;
-  width: 50%;
+  width: 25%;
   background-color: rgba(0,0,0,0.3);
 }
 
 .container div.content .text-box {
-  padding: 20px 30px;
+  padding: 10px 15px;
   background-color: #f1f1f1;
   position: relative;
   border-radius: 6px;
