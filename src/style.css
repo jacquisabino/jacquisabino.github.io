@@ -32,9 +32,10 @@ body {
 
   }
 
-  h1  {
+  h2  {
     font-weight: 100;
   }
+
   .container div.sidenav {
     grid-area: sidenav;
     background-color: #FFDFF4;
