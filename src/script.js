@@ -32,10 +32,20 @@ function openProject(val){
     }
 }
 
-function openProjectOne(){
-    window.location.href = "../currentProjects/generalProjects.html";
-}
 
 function projectButtonClicked(){
     window.location.href = "../projects.html"
+}
+
+/* Individula project displays: might want to gneralize but not sure  */
+function openProjectOne(){
+    window.location.href = "../currentProjects/cacheSimProj.html";
+}
+
+function openProjectTwo(){
+    window.location.href = "../currentProjects/pubWorksProj.html";
+}
+
+function openProjectThree(){
+    window.location.href = "../currentProjects/codeGenProj.html";
 }

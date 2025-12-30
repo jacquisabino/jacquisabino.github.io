@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Current Project</title>
+        <link rel="stylesheet" href="../src/info.css">
+        <!-- <link rel="icon" type="image/x-icon" href="/images/favicon.ico"> -->
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <!-- current issue: my header is bigger due to using frames to define it change to 
+                percentage of page? idk dynamic stuff yk-->
+                <h2>
+                    <button class="headerText" onclick="projectButtonClicked()">
+                        Public Works Database 
+                    </button>
+                </h2>
+            </div>
+           <!-- <div class="menu"><a href="#">Education</a><br><a href="#">Work</a><br><a href="#">Contact</a>
+                <br><a href="#">Coding Projects</a></div> -->
+            <!--Side nav will change to project names -->
+            <div class="sidenav">
+                <a href="#cacheSimulator" onclick="openProjectOne()">Cache Simulator</a><br>
+                <a href="#publicWorks" onclick="openProjectTwo()">Public Works Database</a><br>
+                <a href="#codeGenerator" onclick="openProjectThree()">Code Generator</a>
+            </div>
+            <!-- <div class="secondmenu"></div> -->
+            <div class="content">
+                <!-- Documentation -->
+                <h3>Documentation</h3>
+                <p>
+                    Our database provides administrative staff at the Public Works Department with a
+                    structure for tracking information about reported potholes, users submitting damage
+                    reports, equipment and employees. To do this we defined eight entities as described
+                    and modeled in our UML diagram
+                </p>
+                <h4>WORK_ORDER</h4>
+                <p>
+                    Purpose: To provide information about how a pothole has been chosen to be
+                    handled. So users can file a damage report or a pothole can just exist, but until
+                    an administrator files a work order on the pothole it won’t be fixed. Work orders
+                    can be inactive for various reasons (hasn’t started, holidays, repaired,
+                    administrative issues, etc...). Also provides a start and end date for the repair.
+                    Children:
+                </p>
+                <h5>POTHOLE</h5>
+                <p>
+                    A work order must be associated with one pothole. However,
+                    a pothole can be associated with 0 or 1 work orders
+                </p>
+                <h5>WORK CREW</h5>
+                <p>
+                    A work order must be associated with one work crew. But
+                    a work crew can be associated with 0 or 1 work orders. (Constraint: A
+                    work order cannot be inactive with an active work crew assigned to it)
+                    (Constraint: A work order can be created prior to work crew but the
+                    project can't start before work crew is created).
+                </p>
+                <h4>WORK_CREW</h4>
+                <p>
+                    Purpose: To provide information about the group of workers assigned to repair a
+                    certain pothole through a work order. A work crew can exist without having been
+                    assigned a work order but can be assigned to at most one work order.
+                </p>
+                <h4>EQUIPMENT</h4>
+                <p>
+                    Purpose: To provide information about the equipment used to repair a certain
+                    pothole through an issued work order.
+                    Children: 
+                </p>
+                <h5>WORK_ORDER</h5>
+                <p>
+                    A work order has 1 or many equipment assigned to it. 1
+                    or many equipment can be associated with 0 or 1 work orders. This is to
+                    highlight that equipment exists (and possibly free to assign), without a
+                    work order existing for it.             
+                </p>
+                <h4>WORKER</h4>
+                <p>
+                    Purpose: To provide information about a worker assigned to repair a certain
+                    pothole as part of a work crew.
+                    Children:
+                </p>
+                <h5>WORK_CREW:</h5>
+                <p>
+                    A work crew is made up of 1 to many workers. The
+                    number of workers per work crew can vary. A worker can only be
+                    assigned to 0 or 1 work crews. A worker can exist without being assigned
+                    to a work crew.     
+                </p>
+                <h4>USER</h4>
+                <p>
+                    Purpose: To provide information about a user who’s filed a damage report about
+                    a certain pothole. A user’s first name, last name and phone number can be used
+                    as an alternative key. Additionally, the phone number itself can be an alternative
+                    key.
+                    Children:
+                </p>
+                <h5>RESIDENCE_ADDRESS</h5>
+                <p>
+                    Each user must be associated with one
+                    address. One address can be associated with 1 or more users. This is to
+                    highlight that many people living in the same place can file reports on
+                    potholes.
+                </p>
+                <h4>DAMAGE_REPORT</h4>
+                <p>
+                    Purpose: To provide information about the report a user has made on a pothole
+                    and the damage associated with it.  
+                    Children:        
+                </p>
+                <h5>POTHOLE</h5>
+                <p>
+                    A damage report must be associated with one pothole.
+                    However a pothole can be associated with 0 or 1 damage reports. In our
+                    design we chose to highlight that a pothole can exist without someone
+                    having filed a damage report on it.
+                </p>
+                <h5>USER</h5>
+                <p>
+                    A user can have made 1 or more damage reports. A damage
+                    report can only be associated with a single user
+                </p>
+                <h4>POTHOLE</h4>
+                <p>
+                    Purpose: To provide information about existing potholes including size, location,
+                    and whether it’s be repaired. Repair priority and district are derived attributes.
+                    Repair priority will be calculated by the size of pothole and district by street
+                    address.
+                </p>
+                <h4>RESIDENCE_ADDRESS</h4>
+                <p>
+                    Purpose: To provide information about where a user who’s filed a damage report
+                    lives.
+                </p>
+            </div>
+            <!-- <div class="footer"><h4>Footer</h4></div> -->
+        </div>
+        <script src="../src/script.js"></script>
+    </body>
+</html>
