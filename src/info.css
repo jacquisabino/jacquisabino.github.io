@@ -120,9 +120,9 @@ h2 {
 }
 
 .container div.content .text-box {
-  padding: 10px 15px;
+  padding: 5px 10px;
   background-color: #f1f1f1;
   position: relative;
   border-radius: 6px;
-  font-size: 15px;
+  font-size: 10px;
 }
