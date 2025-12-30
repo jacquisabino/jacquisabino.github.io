@@ -25,9 +25,9 @@ body {
   }
   .container div.header {
     grid-area: header;
-    text-align: center;
+    text-align: left;
     font-family: 'Playfair Display';
-    font-weight: 100;
+    font-weight: 25;
     background-color: #FDF2F9;
     border-radius: 10px;
 
@@ -83,6 +83,6 @@ body {
   }
 
   h3 {
-    text-align: center;
+    text-align: left;
     font-family: 'Playfair Display';
   }
