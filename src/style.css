@@ -12,7 +12,7 @@ body {
       "sidenav content secondmenu"
       "sidenav content secondmenu";
     grid-template-columns: 1fr 4fr 1fr;
-    grid-template-rows: 2fr 8fr 1fr;
+    grid-template-rows: 1fr 9fr 1fr;
     height: 100vh;
     overflow: auto;
     gap: 25px;
