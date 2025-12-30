@@ -113,14 +113,14 @@ h2 {
 }
 
 .container div.content .container {
-  padding: 5px 25px;
+  /* padding: 5px 25px; */
   position: relative;
   width: 25%;
   background-color: rgba(0,0,0,0.3);
 }
 
 .container div.content .text-box {
-  padding: 5px 10px;
+  padding: 10px 15px;
   background-color: #f1f1f1;
   position: relative;
   border-radius: 6px;
