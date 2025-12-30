@@ -55,6 +55,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     border-radius: 10px;
+    background-color: #FFDFF4;
   }
 
   .secondmenu div {
