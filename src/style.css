@@ -29,14 +29,14 @@ body {
     font-family: 'Playfair Display';
     font-weight: 100;
     background-color: #FDF2F9;
-    border-radius: 15px;
+    border-radius: 10px;
 
   }
   .container div.sidenav {
     grid-area: sidenav;
     background-color: #FFDFF4;
     text-align: center;
-    border-radius: 15px;
+    border-radius: 10px;
   }
 
   .container div.sidenav a{
@@ -54,7 +54,7 @@ body {
     grid-area: secondmenu;
     display: flex;
     flex-wrap: wrap;
-    border-radius: 15px;
+    border-radius: 10px;
   }
 
   .secondmenu div {
@@ -78,7 +78,7 @@ body {
     font-weight: mixed;
     font-size: small;
     background-color: #D8D8E9;
-    border-radius: 15px;
+    border-radius: 10px;
   }
 
   h3 {

@@ -27,13 +27,13 @@ body {
   font-family: 'Playfair Display';
   font-weight: 100;
   background-color: #FDF2F9;
-  border-radius: 15px;
+  border-radius: 10px;
 }
 .container div.sidenav {
   grid-area: sidenav;
   background-color: #FFDFF4;
   text-align: center;
-  border-radius: 15px;
+  border-radius: 10px;
 }
 
 .container div.sidenav a{
@@ -53,7 +53,7 @@ body {
   font-family: 'Inter';
   background-color: #D8D8E9;
   overflow-y: auto;
-  border-radius: 15px;
+  border-radius: 10px;
 }
 
 h3 {
