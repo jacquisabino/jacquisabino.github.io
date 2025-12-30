@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Inter');
 
 body {
-  background-color: black;
+  background-color: white;
 }
 
 .container {
@@ -16,7 +16,7 @@ body {
     height: 100vh;
     overflow: auto;
     gap: 25px;
-    background-color: black;
+    /* background-color: black; */
     padding: 25px; 
   }
   .container div {
