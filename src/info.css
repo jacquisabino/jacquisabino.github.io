@@ -116,11 +116,11 @@ h2 {
   padding: 5px 25px; 
   position: relative;
   /**/
-  width: calc(50% - 25px); 
+  width: 50%; 
   background-color: rgba(0,0,0,0.3);
 }
 
-.container div.content .text-box {
+.text-box {
   padding: 20px 30px;
   background-color: #f1f1f1;
   position: relative;
@@ -132,7 +132,7 @@ h2 {
   left: 0;
 } 
 
-.timeline .right-container {
+.right-container {
   left: 50%; 
 }
 
