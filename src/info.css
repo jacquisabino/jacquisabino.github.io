@@ -124,7 +124,7 @@ h2 {
 .timeline .container .text-box {
   padding: 20px 30px;
   background-color: #f1f1f1;
-  position: relative;
+  position: absolute;
   border-radius: 6px;
   font-size: 10px;
   width: 100%;
