@@ -121,7 +121,7 @@ h2 {
   background-color: rgba(0,0,0,0.3);
 }
 
-.text-box {
+.timeline .container .text-box {
   padding: 20px 30px;
   background-color: #f1f1f1;
   position: relative;
