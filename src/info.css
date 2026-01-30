@@ -122,10 +122,10 @@ h2 {
 }
 
 .timeline .container .text-box {
-  padding: 20px 30px 20px 30px;
+  /* padding: 20px 30px 20px 30px; */ 
   background-color: #f1f1f1;
   position: relative;
-  width: calc(100% - 20px);
+  /* width: calc(100% - 20px); */ 
   /* border-radius: 6px; */
   font-size: 10px;
 }
