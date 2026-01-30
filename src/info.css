@@ -115,7 +115,7 @@ h2 {
 .timeline .container {
   padding: 5px 25px; 
   position: relative;
-  /**/
+  /* This container works as expected */
   width: calc(50% - 50px); 
   min-height: 100px;
   background-color: rgba(0,0,0,0.3);
@@ -138,6 +138,7 @@ h2 {
 }
 
 .timeline::after {
+  /* this line also works as expected */
   content: ' ';
   position: absolute;
   width: 6px;
