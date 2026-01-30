@@ -4,7 +4,7 @@ body {
   background-color: white;
 }
 
-.container {
+.mainContainer {
   display: grid;
   grid-template-areas:
     "header header header"
@@ -17,11 +17,11 @@ body {
   /* background-color: black; */
   padding: 25px; 
 }
-.container div {
+.mainContainer div {
   background-color: white;
   padding: 10px;
 }
-.container div.header {
+.mainContainer div.header {
   grid-area: header;
   text-align: center;
   font-family: 'Playfair Display';
@@ -29,25 +29,25 @@ body {
   background-color: #FDF2F9;
   border-radius: 10px;
 }
-.container div.sidenav {
+.mainContainer div.sidenav {
   grid-area: sidenav;
   background-color: #FFDFF4;
   text-align: center;
   border-radius: 10px;
 }
 
-.container div.sidenav a{
+.mainContainer div.sidenav a{
   text-decoration: none;
   font-size: 16px;
   color: black;
   padding: 10px 10px;
 }
 
-.container div.sidenav a:hover{
+.mainContainer div.sidenav a:hover{
   color: #f1f1f1;
 }
 
-.container div.content {
+.mainContainer div.content {
   /* we will see if it changes my project content */
   grid-area: content; 
   font-family: 'Inter';
