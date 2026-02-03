@@ -116,7 +116,7 @@ h2 {
   padding: 5px 25px; 
   position: relative;
   /* This container works as expected */
-  width: calc(50% - 50px); 
+  width: 50%; 
   min-height: 100px;
   background-color: rgba(0,0,0,0.3);
 }
@@ -137,9 +137,11 @@ h2 {
 .right-container {
   left: 50%; 
 }
+ /* hehehe I am going to mess with removing the center line */
 
+ /* 
 .timeline::after {
-  /* this line also works as expected */
+  this line also works as expected 
   content: ' ';
   position: absolute;
   width: 6px;
@@ -148,4 +150,4 @@ h2 {
   top:0;
   left: 50%;
   margin-left: -3px;
-} 
+}  */
