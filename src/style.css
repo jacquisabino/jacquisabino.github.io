@@ -62,6 +62,7 @@ body {
     background-color: #FFDFF4;
   }
 
+  /* 
   .secondmenu div {
     box-sizing: border-box;
     margin: 5px;
@@ -75,7 +76,7 @@ body {
     object-fit: cover;
     object-position: top;
   }
-
+  */ 
 
   .mainContainer div.content {
     grid-area: content;
