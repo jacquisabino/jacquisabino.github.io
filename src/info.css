@@ -19,7 +19,8 @@ body {
 }
 .mainContainer div {
   background-color: white;
-  padding: 10px;
+  /* Just to see what happens when padding removed from non-index files */
+  /* padding: 10px; */
 }
 .mainContainer div.header {
   grid-area: header;
