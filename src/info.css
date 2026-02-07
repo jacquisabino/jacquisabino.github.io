@@ -19,8 +19,7 @@ body {
 }
 .mainContainer div {
   background-color: white;
-  /* Just to see what happens when padding removed from non-index files */
-  /* padding: 10px; */
+  padding: 10px; 
 }
 .mainContainer div.header {
   grid-area: header;
@@ -111,6 +110,7 @@ h2 {
   position: relative;
   max-width: 600px;
   margin: 100px auto;
+  padding: 0px;
 }
 
 .timeline .container {
