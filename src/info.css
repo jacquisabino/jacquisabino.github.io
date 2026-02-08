@@ -110,7 +110,7 @@ h2 {
   position: relative;
   max-width: 600px;
   margin: 100px auto;
-  padding: 0px;
+  margin: -10px;
 }
 
 .timeline .container {
