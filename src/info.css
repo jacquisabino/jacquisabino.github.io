@@ -108,6 +108,13 @@ h2 {
 
 .timeline {
   position: relative;
+  /* there is padding present from parent div that i want to ignore*/
+  /* 620 is the width + padding */
+  /* margin: -10px overrides the 100px margin from content */
+  /* margin is outside of defined timeline borders and sticks the timeline 
+  along content which is not what i wanted */
+  /*margin: 0 -15px; */
+  /*top and bottom are 0, left and right move 15 to left */
   max-width: 600px;
   margin: 100px auto;
 }
@@ -116,7 +123,7 @@ h2 {
   padding: 5px 25px; 
   position: relative;
   /* This container works as expected */
-  width: 50%; 
+  width: calc(50% - 25px); 
   min-height: 100px;
   background-color: rgba(0,0,0,0.3);
 }
