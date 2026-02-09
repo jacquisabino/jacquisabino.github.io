@@ -138,11 +138,8 @@ h2 {
 .right-container {
   left: 50%; 
 }
- /* hehehe I am going to mess with removing the center line */
 
- /* 
 .timeline::after {
-  this line also works as expected 
   content: ' ';
   position: absolute;
   width: 6px;
@@ -151,4 +148,4 @@ h2 {
   top:0;
   left: 50%;
   margin-left: -3px;
-}  */
+}  
