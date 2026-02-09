@@ -149,3 +149,7 @@ h2 {
   left: 50%;
   margin-left: -3px;
 }  
+
+.container image {
+  background-color: transparent;
+}
