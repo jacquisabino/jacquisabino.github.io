@@ -151,5 +151,6 @@ h2 {
 }  
 
 .container image {
-  background-color: transparent;
+  width: 40px;
+  background: transparent;
 }
