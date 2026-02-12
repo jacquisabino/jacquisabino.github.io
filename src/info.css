@@ -151,6 +151,9 @@ h2 {
 }  
 
 .container img {
+  position: absolute;
   width: 40px;
   background: transparent;
+  right: -20px;
+ 
 }
