@@ -132,10 +132,12 @@ h2 {
 }
 
 .left-container {
+  position: relative;
   left: 0;
 } 
 
 .right-container {
+  position: relative;
   left: 50%; 
 }
 
