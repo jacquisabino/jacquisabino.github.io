@@ -85,6 +85,7 @@ body {
     font-size: small;
     background-color: #D8D8E9;
     border-radius: 10px;
+    overflow-y: auto;
   }
 
   h3 {
