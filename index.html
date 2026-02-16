@@ -98,11 +98,23 @@
                     "Why no porn?". Is there any use? Isolated, no. But I can definately see advantages to adding this little bit of 
                     character defining data to a user profile that likely cosists of personally identifying data such as IP address, hometown, 
                     language spoken, schools attended, preferred names, emails, etc... And once you've reached this stage, you can easily start 
-                    mapping to friends and family. That part, however, is not so clear. Since up to this point OpenAI has only specified collecting 
-                    user interactions via their Services provided. No proxies. Yet.           
-                    
-                    Personal Data a user provides consists of Account Information, pretty self-explanatory, User Content such as
-                    prompts, uploaded content,                  
+                    mapping to other users, to identify friends and family. That part, however, is not so clear. Since up to this point OpenAI has 
+                    only mentioned collecting user interactions via their Services provided. No proxies. Contact Data is just your 
+                    device address book. When you create an account, your phone number is stored as a hashed version of that number onto 
+                    OpenAI servers. If you choose to upload your contact list, your address book is used to iterate through those numbers, create 
+                    hashed versions of them, check if those numbers exist on OpenAI servers, if they do, you receive a suggested follow, if not, this hashed number 
+                    is stored as just that. It is some contact disassociated from the rest of the information you provide in your address book. But 
+                    it is a connection to you. Later, if that contact chooses to create a ChatGPT account, their phone nuber will be hashed, checked amongst 
+                    the current hashed numbers on OpenAI servers, and found amongst your contact list. Follow suggested to you since you chose to upload their
+                    contact data, with your contact info. If they did not choose to upload existing contacts that contain your number, they will only receive an 
+                    option to follow you once you have followed them. Otherwise, they should not see a suggested follow. Original user -> hashed number -> friend's 
+                    hashed number. Friend creates ChatGPT account. Original user -> Friend account. Friend Account -> hashed number. No 
+                    connection is created from friend to you. Other information users provide would be information collected  
+                    from OpenAI events, or from vendors operating on their behalf. I have yet to witness this but let's say OpenAI is 
+                    tabling at your University, they have you fill out a survey asking you your, name, age, and how you feel about ChatGPT. 
+                    Since this would be used to verify your identity, you'd have to have an OpenAI account to participate. Since this 
+                    vendor could verify your identity as an existing OpenAI user, your response to the survey has been linked to your 
+                    profile. You are additionally part of a submap of OpenAI accounts who filled out that same survey at that specific University.                    
                     <br>
                     This is my first blog post, I am basically summarizing the privacy policy, and jotting down thoughts as they come. 
                     
