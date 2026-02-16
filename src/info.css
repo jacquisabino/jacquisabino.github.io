@@ -124,8 +124,8 @@ h2 {
 }
 
 .timeline .container .text-box {
-  /* padding: 20px 30px 20px 30px; */ 
-  padding: 20px 30px;
+  /* old padding: 20px 30px */
+  padding: 10px 15px;
   background-color: #f1f1f1;
   position: relative;
   /* width: calc(100% - 20px); */ 
@@ -154,8 +154,8 @@ h2 {
 
 .container img {
   position: absolute; 
-  width: 40px;
-  height: 40px;
+  width: 60px;
+  height: 60px;
   background: transparent;
   right: -20px;
   top: 32px; 
