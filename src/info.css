@@ -110,7 +110,9 @@ h2 {
 
 .timeline {
   position: relative;
-  max-width: 600px;
+  /* trying to create wider timeline */
+  /* old max-width: 600px */
+  max-width: 800px;
   margin: 100px auto;
 }
 
@@ -125,7 +127,7 @@ h2 {
 
 .timeline .container .text-box {
   /* old padding: 20px 30px */
-  padding: 10px 15px;
+  padding: 20px 30px;
   background-color: #f1f1f1;
   position: relative;
   /* width: calc(100% - 20px); */ 
