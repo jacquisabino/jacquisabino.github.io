@@ -111,8 +111,8 @@ h2 {
 .timeline {
   position: relative;
   /* trying to create wider timeline */
-  max-width: 600px;
-  /* max-width: 800px; */
+  /* max-width: 600px; */
+  max-width: 800px;
   margin: 100px auto;
 }
 
@@ -157,11 +157,14 @@ h2 {
   width: 60px;
   height: 60px;
   background: transparent;
-  right: -20px;
+
+  /* right: -20px; */
+  right: -5px;
   top: 32px; 
   z-index: 10;
 }
 
 .right-container img {
-  left: -20px;
+  /* left: -20px; */
+  left: -5px;
 }
