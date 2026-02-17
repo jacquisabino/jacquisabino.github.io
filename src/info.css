@@ -159,12 +159,12 @@ h2 {
   background: transparent;
 
   /* right: -20px; */
-  right: -5px;
+  right: -30px;
   top: 32px; 
   z-index: 10;
 }
 
 .right-container img {
   /* left: -20px; */
-  left: -5px;
+  left: -30px;
 }
