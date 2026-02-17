@@ -111,8 +111,8 @@ h2 {
 .timeline {
   position: relative;
   /* trying to create wider timeline */
-  /* old max-width: 600px */
-  max-width: 800px;
+  max-width: 600px;
+  /* max-width: 800px; */
   margin: 100px auto;
 }
 
