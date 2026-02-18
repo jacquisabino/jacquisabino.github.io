@@ -18,7 +18,7 @@ body {
   padding: 25px; 
 }
 .mainContainer div {
-  background-color: white;
+  /* background-color: white; */
   padding: 10px; 
 }
 .mainContainer div.header {
@@ -168,3 +168,16 @@ h2 {
   /* left: -20px; */
   left: -30px;
 }
+
+.left-container-arrow {
+  height: 0;
+  width: 0;
+  position: absolute;
+  top: 28px;
+  z-index: 1;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 15px solid red;
+  right: -15px;
+}
+
