@@ -188,6 +188,8 @@ h2 {
   border-top: 15px solid transparent;
   border-bottom: 15px solid transparent;
   border-left: 15px solid red;
-  right: -15px;
+  /* right: -15px; */
+  /* making sure i understand arrows right */
+  right: 15px;
 }
 
