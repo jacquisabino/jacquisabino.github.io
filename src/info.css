@@ -50,13 +50,11 @@ body {
 }
 
 .mainContainer div.content {
-  /* we will see if it changes my project content */
   grid-area: content; 
   font-family: 'Inter';
   background-color: #D8D8E9;
   overflow-y: auto;
   border-radius: 10px;
-  display: flex;
 }
 
 h3 {
@@ -95,8 +93,11 @@ h2 {
   border: black;
   border-width: 2%;
   filter: drop-shadow(-9px 9px 2px rgba(0,0,0,45)); */ 
-  width: 100;
-  margin-right: calc((100% - (3 * 100px)) / 2);
+  display: inline-block;
+  box-sizing: border-box;
+  width: 30%;
+  margin-left: 25px;
+  
 }
 
 .projectTwo {
