@@ -102,25 +102,36 @@ h2 {
 }
 
 .projectTwo {
-  border: none;
+  /* border: none;
   width: 150px;
   height: 25%;
   display: inline-block;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
   border-radius: 15%;
   margin-right: 150px;
-  background-color: #FFEFEF;
+  background-color: #FFEFEF; */
+  display: inline-block;
+  box-sizing: border-box;
+  width: 25%;
+  height: 20%;
+  margin-left: 25px;
 }
 
 .projectThree {
-  border: none;
+  /* border: none;
   width: 150px;
   height: 25%;
   display: inline-block;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
   border-radius: 15%;
   margin-right: 150px;
-  background-color: #FFEFEF;
+  background-color: #FFEFEF; */
+  display: inline-block;
+  box-sizing: border-box;
+  width: 25%;
+  height: 20%;
+  margin-left: 25px;
+
 }
 
 .timeline {
