@@ -204,7 +204,7 @@ h2 {
   border-top: 15px solid transparent;
   border-bottom: 15px solid transparent;
   border-left: 15px solid #f1f1f1;
-  left: 0;
-  /* right: -15px; */
+  
+  right: -15px; 
 }
 
