@@ -126,8 +126,8 @@
                     <p>
                     Now onto Personal Data OpenAI receives from an account's use of Services. This is all the background information sent around the 
                     internet. When someone uses a service like ChatGPT, your browser and device allows information to be relayed to the server 
-                    you are requesting from. You ask a question to ChatGPT -> your device carries that question, IP address, browser type and settings, 
-                    date and time, how you interact with their Services -> you receive a tailored response. 
+                    you are requesting from. You ask a question to ChatGPT -> your device carries that question, IP address, browser type, settings, 
+                    date, time, and how you interact with their Services -> you receive a tailored response. 
 
                     It should be noted that whether or not you have an account when you message the ChatGPT AI chatbot, 
                     you agree to terms and to having read the privacy policy. 
@@ -139,17 +139,13 @@
                     you navigate to ChatGPT.com and start a new chat with all your old conversations lingering off to the left. 
                     Their one line summaries remind you of previous bouts of desperation. "Resume template for entry level 
                     IT roles", "Fix Grammar errors on this paper", "Difference between x86 and ARM", "Binary Bomb lab solution". 
-                    So here you are, are asking it to generate examples of pointers in C, what it means to dereference, 
+                    So here you are, asking it to generate examples of pointers in C, what it means to dereference, 
                     what a memory leak is, etc... At this point, your device identifier is given, 
                     the fact that you are using the most recent version of Google Chrome (you like to keep up-to-date with 
                     your personal security so regular updates are a must) is given, Februrary 11th 2026 10pm CST is given, and 
                     the fact that you're using the chatbot is given. 
                     
-                    While your IP address does not inherently contain a geographic location, it can be inferred using 
-                    your Internet Service Provider. Internet Service Providers assign public IP addresses to allow your 
-                    device to be communicated with. Using publicly available information, a city can easily be correlated.
-                    
-                    Log information is generally most useful when something goes wrong. 
+                    This falls under log information, which is generally most useful when something goes wrong. 
                     The purpose of a log is to keep track of just enough information to diagnose but not so much that you 
                     overwhelm your team with useless data and loose time in the process. 
                     Businesses will keep various versions of them them for auditing, monitoring performance, and debugging. 
@@ -157,8 +153,7 @@
                     For anything more specific, we move to OpenAI's collection of "usage data". 
                     
                     To continue with the above example, at the end of your session the fact that you 
-                    spent 45 minutes on chatgpt.com is given, 
-                    and generalizable information is gathered and likely used 
+                    spent 45 minutes on chatgpt.com is given, and generalizable information is gathered and likely used 
                     in aggregate with your previous search topics to create a more robust profile on you.
                     Such as, "C programming language", "Pointers", "Coding", 
                     "Job in Tech", and "Student". 
@@ -166,20 +161,20 @@
                     Perhaps you weren't satisfied with some responses so you clicked 
                     the thumbs down or thumbs up button. Maybe you even went out of your way to report 
                     something as misiniformation or disinformation. Do you use the group chat function? Or 
-                    maybe your a fan of the forum, those users are now recorded. 
+                    maybe your a fan of the forum? Those users you interacted with are now recorded. 
                     
-                    Now onto the boring stuff; time zone, country, dates and time of access. Honestly, 
-                    I'm strugging figuring out how this is useful. TimeZone: CST, America, Feb 11th 2026 11pm.
+                    Honestly, I struggled figuring out how time zone, country, dates and time of access
+                    were useful. TimeZone: CST, America, Feb 11th 2026 11pm.
                     Broadly speaking, it could be used to track patterns of access. My guess is a 
                     lot of Americans or more Industrialized countries 
-                    and regions within those countries have more use for OpenAI. 
+                    and regions within those countries have more need for OpenAI Services.
                     Maybe there's some patterns to be recognized about your usage of their chatbot. 
-                    Maybe there's an overarching pattern about students' usage of the chatbot. 
+                    Or there's an overarching pattern about students' usage of the chatbot. 
                     Could this influence where they choose to host servers? Even though everything feels wireless,
                     magical, and isntant, distance is still very real, hardware is still very real. 
                     And the closer a data center is to 
                     their users and maintenance teams, the better service you, but most importantly, 
-                    their paying customers, recevie. 
+                    their paying customers, recieve. 
 
                     Now the next time you navigate to ChatGPT.com, and start typing whatever it is 
                     you need, the suggested searches will appear more specific to your use of the chatbot. I would like to 
@@ -190,61 +185,49 @@
                     just from your IP address but thousands. To prevent a crash and keep paying customers paying, their inference 
                     servers, those responsible for generating responses, would need to adapt to this influx of requests to remain 
                     as fast and reliable as your request made Monday at 2pm. Interestingly enough, we don't really see 
-                    any downsides of these server-side optimization techniques, though they exist. Back when I worked at 
-                    restaraunts, I always sacrificed a little bit of personilzation in service when that rush came in. 
-                    But, just like being a server, you can be more consistent when you've seen the same 
-                    person every Sunday at noon since you began working there. And that is the purpose of collecting 
-                    your usage data. You get faster, tailored responses because the server utilizes memories of you 
-                    which results in slightly less work (at least compared to an entriely new user) and better service.   
+                    any downsides of these server-side optimization techniques, though they exist. 
                     
-                    What about the weird low level and hardware information that still doesn't stand out to me?
-                    User agent and version, type of computer or mobile device, and your computer connection. 
+                    What about lower-level information?
+                    Such as user agent and version, type of computer or mobile device, and your computer connection. 
                     A user agent is a string web browsers send to servers with details about browser and device. 
-                    If you go to "WhatMyUserAgent.com" you can see for yourself what your computer id 
-                    looks like. At this point, you've heard me say enough information about 
-                    "optimizing for user expereince" to get the point. Maybe a certain starup has launched an 
-                    app and has discovered most of its' users are iOS mobile owners. Why make it android compatible 
-                    if you're a startup struggling to make a dent in app store downlaods? But there is also 
-                    the guarantee of loosing android users. That is a choice for the business. You could 
-                    also keep compatibility for both devices but prioritize development for iOS. Understanding these 
-                    details allows you to unerstand your users and how to serve them consistently. 
+                    If you go to "WhatMyUserAgent.com" you can see for yourself what your computer id looks like. 
+                    If you want to create a game to be hosted on a website, you want it to be consistent for all users, despite 
+                    differences in Browser, Operating System, or the various version of both. Otherwise, you 
+                    risk loosing customers, clients, or just people who really want to play that game. 
+                    The same goes for chatbots. 
+
+                    There is such thing as developing with intentional diregard. Yall ever used Snapchat while owning 
+                    an android in 2016? Perhaps you've been sent a photo taken on an android through iMessage. 
+                    Let's just say Apple can afford to be inaccesible. 
                     
                     But enough of that, what if someone doesn't have your best interest at heart? 
                     Just like a developer can cater to your needs based on browser, OS, and device specificity. 
-                    An adversary can cater to their needs based on the same infromation. I don't spend time on 
-                    hacker forums because I'm not that bored but I do know they're constantly finding and 
-                    trading new vulnerabilites specific to certain operating systems, browsers, etc... This is 
-                    why "being cyber security aware" is so important. It's 
-                    really boring data being passed around and someone is hoping you haven't installed 
-                    the latest version of Safari. Maybe I'll do a deepdive into how it all works one day. 
+                    An adversary can cater to their needs based on the same infromation. If an exploit is 
+                    discovered on the Google Chrome browser, a user agent is 1000% beenficial to anyone 
+                    looking to profit. 
                     
-                    Back to the fun stuff, still data catalouged under "recevied". Location inferred by 
-                    your IP address. We've all recevied a suspicious
-                    login attempt pop up before. Regardless, location data 
+                    Location data 
                     benefits the company for reasons I stated above. Trends in usage, palcement of 
                     inference servers, load balancing in data centers, addressing hardware, software, 
-                    and network security failures on OpenAI's side. 
-                    How does this allow for more accurate responses? This is a bit of a reach but maybe OpenAIs'
-                    model has discovered that a majority of their users in Palo Alto prefer 
-                    to be "talked to" a certain way. The way they display information could change.
+                    and network security failures on OpenAI's side. But how does this allow for more accurate responses? 
+                    The way ChatGPT displays information could change. 
                     For example using dollars instead of euros, or bitcoin instead of either. 
-                    What about writing styles? 
+                    What about writing styles and subtlties of city, state, or demographic culture? 
                     
                     Finally, 'cookies and similar technologies'. We've all heard of cookies, little 
-                    bites of data that allow web browsers to display data specific to us or our previous 
-                    visit to that website. Most people have correlated them with evil data brokers, 
-                    malicious hackers, advertisers and the websites themselves. All of those would be 
-                    accurate, but we agree to them anyways, it's easier to. Much of the data described above 
-                    can be stored and saved by OpenAI cookies. 
-                    Unsurprisingly, similar technologies have arisn due to massive crackdown on third party 
-                    cookies. 
-                    From what I've read, most 
-                    of these technologies serve the same purpose, they are simply workarounds 
-                    for government and user oversight. 
-
-                    I recenlty learned about "cookie scrapers", while I am confident in OpenAI's privacy 
-                    standards, they can't truly prevent daat breaches. So how can a malicious actor
-                    use my stored cookies to manipulate me online? 
+                    files stored on our device that allow web browsers to display data specific to us and our previous 
+                    visit/s to that site. Most people have correlated them with evil data brokers, 
+                    malicious hackers, and advertisers. All of those would be 
+                    accurate, but we agree to them anyways, it's easier to. I don't like 
+                    the added friction of re-entering passwords or 2fa as much as the next guy. But 
+                    just like we create obstacles for our future selves to benefit from (like 
+                    keeping indulgent snacks out of site or layering our alarms) we should be willing to do the 
+                    same for our internet health. Much of the data described above can be stored and saved by cookies. 
+                    Unsurprisingly, similar technologies have arisen due to massive crackdown on the 
+                    cookie systems. Most of these alternatives serve the same purpose. Web beacons and referral urls 
+                    track your activity across sites. Device/broswer fingerprinting and AD ID's are 
+                    capable of identifying you even with a VPN. 
+                    
                     
                     
 
