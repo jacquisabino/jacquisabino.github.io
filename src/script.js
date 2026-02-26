@@ -7,8 +7,8 @@ function displayWork(){
     window.location.href = "work.html";
 }
 
-function displayContact(){
-    window.location.href = "contact.html";
+function displayBlog(){
+    window.location.href = "blog.html";
 }
 
 function displayProjects(){

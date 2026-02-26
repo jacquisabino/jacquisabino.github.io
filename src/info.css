@@ -97,11 +97,11 @@ h2 {
   box-sizing: border-box;
   width: 25%;
   height: 20%;
-  margin-left: 6.5%;
+  margin-left: 6.25%;
   border-width: 2px;
   border-style: solid;
   border-radius: 5px;
-  box-shadow: -9px 9x 2px rgba(0, 0, 0, .45);
+  box-shadow: -9px, 9x, 2px, rgba(0, 0, 0, .45);
 }
 
 .projectTwo {
@@ -117,11 +117,11 @@ h2 {
   box-sizing: border-box;
   width: 25%;
   height: 20%;
-  margin-left: 6.5%;
+  margin-left: 6.25%;
   border-width: 2px;
   border-style: solid;
   border-radius: 5px;
-  box-shadow: -9px 9x 2px rgba(0, 0, 0, .45);
+  box-shadow: -9px, 9x, 2px, rgba(0, 0, 0, .45);
 }
 
 .projectThree {
@@ -137,11 +137,11 @@ h2 {
   box-sizing: border-box;
   width: 25%;
   height: 20%;
-  margin-left: 6.5%;
+  margin-left: 6.25%;
   border-width: 2px;
   border-style: solid;
   border-radius: 5px;
-  box-shadow: -9px 9x 2px rgba(0, 0, 0, .45);
+  box-shadow: -9px, 9x, 2px, rgba(0, 0, 0, .45);
 }
 
 .timeline {
