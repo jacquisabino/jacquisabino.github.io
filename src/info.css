@@ -101,6 +101,8 @@ h2 {
   border-width: 2px;
   border-style: solid;
   border-radius: 5px;
+  border-color: black;
+  background-color: #f1f1f1;
   box-shadow: -9px, 9x, 2px, rgba(0, 0, 0, .45);
 }
 
@@ -121,6 +123,8 @@ h2 {
   border-width: 2px;
   border-style: solid;
   border-radius: 5px;
+  border-color: black;
+  background-color: #f1f1f1;
   box-shadow: -9px, 9x, 2px, rgba(0, 0, 0, .45);
 }
 
@@ -141,6 +145,8 @@ h2 {
   border-width: 2px;
   border-style: solid;
   border-radius: 5px;
+  border-color: black;
+  background-color: #f1f1f1;
   box-shadow: -9px, 9x, 2px, rgba(0, 0, 0, .45);
 }
 
