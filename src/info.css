@@ -13,19 +13,20 @@ body {
   grid-template-columns: 1fr 4fr 1fr;
   grid-template-rows: 1fr 9fr 1fr;
   height: 100vh;
+  overflow: auto;
   gap: 25px;
   /* background-color: black; */
   padding: 25px; 
 }
 .mainContainer div {
-  /* background-color: white; */
+  background-color: white; 
   padding: 10px; 
 }
 .mainContainer div.header {
   grid-area: header;
   text-align: center;
   font-family: 'Playfair Display';
-  font-weight: 100;
+  font-weight: 100; 
   background-color: #FDF2F9;
   border-radius: 10px;
 }
