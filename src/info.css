@@ -45,7 +45,6 @@ body {
   padding: 10px 10px;
   display: inline-block;
   margin-bottom: 10px;
-  height: 18px;
 }
 
 .mainContainer div.sidenav a:hover{
@@ -75,6 +74,7 @@ h2 {
   font-family: 'Playfair Display';
   font-weight: 100;
   border: none;
+  padding: 0, 0;
 }
 
 .projectOne {
