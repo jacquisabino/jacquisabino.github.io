@@ -19,7 +19,7 @@ body {
   padding: 25px; 
 }
 .mainContainer div {
-  background-color: white; 
+  /* background-color: white; */
   padding: 10px; 
 }
 .mainContainer div.header {
@@ -45,6 +45,7 @@ body {
   padding: 10px 10px;
   display: inline-block;
   margin-bottom: 10px;
+  height: 18px;
 }
 
 .mainContainer div.sidenav a:hover{
