@@ -78,6 +78,10 @@ h2 {
   padding-block-end: 0px;
 }
 
+.content button {
+  appearance: none;
+}
+
 .projectOne {
   /* Changing button */
   /* border: none;
@@ -106,8 +110,7 @@ h2 {
   border-style: solid;
   border-radius: 5px;
   border-color: black;
-  background-color: #f1f1f1;
-  z-index: 2;
+  background-color: #FFFFFF;
   box-shadow: -9px, 9x, 2px, rgba(0, 0, 0, .45);
 }
 
