@@ -74,7 +74,8 @@ h2 {
   font-family: 'Playfair Display';
   font-weight: 100;
   border: none;
-  padding: 0px, 0px;
+  padding-block-start: 0px;
+  padding-block-end: 0px;
 }
 
 .projectOne {
