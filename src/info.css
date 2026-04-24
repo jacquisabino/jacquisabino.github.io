@@ -45,6 +45,7 @@ body {
   padding: 10px 10px;
   display: inline-block;
   margin-bottom: 10px;
+  height : 18px;
 }
 
 .mainContainer div.sidenav a:hover{
