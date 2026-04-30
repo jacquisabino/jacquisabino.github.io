@@ -39,8 +39,9 @@ body {
 
 .mainContainer div.sidenav a{
   text-decoration: none;
-  /* font-size: 16px; */
-  font-family: 'Inter';
+  font-size: 16px; 
+  /* font-family: 'Inter'; */
+
   color: black;
   padding: 10px 10px;
   display: inline-block;
