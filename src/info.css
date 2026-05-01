@@ -84,25 +84,7 @@ h2 {
   appearance: none;
 }
 
-.projectOne {
-  /* Changing button */
-  /* border: none;
-  width: 150px;
-  height: 25%;
-  display: inline-block;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
-  border-radius: 15%;
-  margin-right: 150px;
-  background-color: #FFEFEF; */
-  /* position: absolute;
-  width: calc(100% / 3 - 50px);
-  height: calc(100% / 3 - 75px);
-  border-radius: 5px;
-  color: white;
-  padding: 25px;
-  border: black;
-  border-width: 2%;
-  filter: drop-shadow(-9px 9px 2px rgba(0,0,0,45)); */ 
+.projectOne { 
   display: inline-block;
   box-sizing: border-box;
   width: 25%;
@@ -117,14 +99,6 @@ h2 {
 }
 
 .projectTwo {
-  /* border: none;
-  width: 150px;
-  height: 25%;
-  display: inline-block;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
-  border-radius: 15%;
-  margin-right: 150px;
-  background-color: #FFEFEF; */
   display: inline-block;
   box-sizing: border-box;
   width: 25%;
@@ -139,14 +113,6 @@ h2 {
 }
 
 .projectThree {
-  /* border: none;
-  width: 150px;
-  height: 25%;
-  display: inline-block;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
-  border-radius: 15%;
-  margin-right: 150px;
-  background-color: #FFEFEF; */
   display: inline-block;
   box-sizing: border-box;
   width: 25%;
@@ -162,8 +128,6 @@ h2 {
 
 .timeline {
   position: relative;
-  /* trying to create wider timeline */
-  /* max-width: 600px; */
   max-width: 800px;
   margin: 100px auto;
 }
@@ -172,15 +136,12 @@ h2 {
   padding: 5px 25px; 
   position: relative;
   width: calc(50% - 50px); 
-  /* min-height: 100px; */
-  /* background-color: rgba(0,0,0,0.3); */
 }
 
 .timeline .container .text-box {
   padding: 20px 30px;
   background-color: #f1f1f1;
-  position: relative;
-  /* width: calc(100% - 20px); */ 
+  position: relative; 
   border-radius: 6px; 
   font-size: 10px;
 }
@@ -209,15 +170,12 @@ h2 {
   width: 60px;
   height: 60px;
   background: transparent;
-
-  /* right: -20px; */
   right: -30px;
   top: 32px; 
   z-index: 10;
 }
 
 .right-container img {
-  /* left: -20px; */
   left: -30px;
 }
 
