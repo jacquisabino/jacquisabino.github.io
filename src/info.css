@@ -87,6 +87,11 @@ h2 {
   padding-block-start: 0px;
   padding-block-end: 0px;
 }
+/* THIS SECTION IS FOR THE EDUCATION PAGE */
+.mainContainer .content ul.courses{
+  list-style-type: circle;
+  font-size: 12px;
+}
 
 /* THIS SECTION IS FOR PROJECT PAGE */
 
