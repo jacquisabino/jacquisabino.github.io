@@ -80,11 +80,11 @@ body {
     text-align: center;
     font-family: 'Inter';
     /* font-weight: medium; */
-    font-size: 24;
+    /* font-size: 24;*/
   }
 
-  h4 p {
+  .content p {
     font-family: 'Inter';
     font-weight: lighter;
-    font-size: 24;
+    font-size: 12;
   }
