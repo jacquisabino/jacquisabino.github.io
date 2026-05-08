@@ -34,8 +34,8 @@ body {
 
   h2  {
     font-weight: 100;
-    /* increasing font size from 24 to 32 */
-    font-size: 32px;
+    /* can't entirly change font size without increasing entire 
+    box */
   }
 
   .mainContainer div.sidenav {
