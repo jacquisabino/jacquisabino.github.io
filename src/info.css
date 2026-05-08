@@ -231,13 +231,12 @@ h2 {
 
 .blog-text h4 {
   font-family: 'Playfair Display';
-  font-weight: medium;
+  /* font-weight: medium; */
   /* font-size: 24; */
 }
 
 .blog-text h4 p {
   font-family: 'Playfair Display';
-  font-weight: lighter;
-  font-size: small;
+  font-size: 12px;
 }
 
