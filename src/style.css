@@ -68,9 +68,9 @@ body {
 
   .mainContainer div.content {
     grid-area: content;
-    font-family: 'Inter';
-    font-weight: mixed;
-    font-size: small;
+    /* font-family: 'Inter'; */
+    /* font-weight: mixed */
+    /* font-size: small; */
     background-color: #D8D8E9;
     border-radius: 10px;
     overflow-y: auto;
@@ -78,13 +78,13 @@ body {
 
   h4 {
     text-align: center;
-    font-family: 'Playfair Display';
-    font-weight: medium;
+    font-family: 'Inter';
+    /* font-weight: medium; */
     font-size: 24;
   }
 
   h4 p {
-    font-family: 'Playfair Display';
+    font-family: 'Inter';
     font-weight: lighter;
     font-size: 24;
   }
