@@ -79,12 +79,12 @@ body {
   h4 {
     text-align: center;
     font-family: 'Inter';
-    /* font-weight: medium; */
+    font-weight: 100; 
     /* font-size: 24;*/
   }
 
   .content p {
     font-family: 'Inter';
     font-weight: lighter;
-    font-size: 12;
+    font-size: 12px;
   }
